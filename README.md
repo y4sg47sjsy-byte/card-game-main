@@ -31,6 +31,8 @@ Before generation:
 
 Reference files must be shown to image generation as actual visual inputs. A path written into a prompt is not a substitute for loading the image.
 
+For X-STARS character illustration work, `config/x-stars-character-bible.md` defines the approved five-character identity locks, personality direction, series rendering rules, hair-matched background rules, and mandatory prompt footer. Read and follow it before every X-STARS generation or edit.
+
 ## 1. Generate candidates
 
 Ask Codex to read and follow `skills/generate-card-art/SKILL.md` for the approved card ID.

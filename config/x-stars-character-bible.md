@@ -1,0 +1,153 @@
+# X-STARS Character & Art Bible
+
+Status: `approved`
+
+This file is the authoritative identity and series-art input for the five approved X-STARS characters. It does not define story canon beyond the visual traits and personalities explicitly confirmed by the user.
+
+## Approved visual references
+
+- Series-style reference: `assets/references/x-stars/AURORA-korean-webtoon-style-approved.png`
+- AURORA identity: `assets/references/x-stars/AURORA-original.png`
+- RIVA identity: `assets/references/x-stars/RIVA-original.png`
+- SANDRA identity: `assets/references/x-stars/SANDRA-original.png`
+- SARA identity: `assets/references/x-stars/SARA-original.png`
+- TARA identity: `assets/references/x-stars/TARA-original.png`
+
+## Mandatory generation rules
+
+- Read this file before generating or editing any X-STARS character.
+- Use the named character's original image from the Approved visual references as the authoritative identity reference.
+- Use `AURORA-korean-webtoon-style-approved.png` as the series-style reference.
+- Make every local reference image visible to image generation; a filesystem path in a prompt is not a visual input.
+- Confirm the interpretation of a new character with the user before its first generation.
+- Treat generation as a faithful style conversion and quality upgrade, not a redesign.
+- Preserve every identity-critical feature listed for the requested character.
+- Never mix hair, face, costume, accessories, palette, or personality signals between characters.
+- A retry creates a new image. Never overwrite an original reference or earlier result.
+
+## Shared series art direction
+
+- Premium Korean game-webtoon character-poster illustration.
+- Delicate tapered outlines with consistent fine line-weight hierarchy.
+- Mature adult feminine facial construction; luminous layered gradient eyes.
+- Smooth controlled gradients with selective painterly transitions.
+- Natural, elegant adult anatomy; long-legged but not excessively elongated.
+- Refined skin, hair, fabric, leather, iridescent material, and restrained metal highlights.
+- One adult character only, centered in a vertical full-body composition.
+- Entire hair silhouette, hands, legs, and both shoes must remain inside the frame.
+- Match AURORA's character scale, margins, studio-light softness, background luminance, floor reflection, and soft grounding shadow.
+- Background hue follows the character's hair color, while value structure remains consistent: medium-light outer field, pale central halo, soft vertical bloom, restrained diagonal rays, sparse particles, and a luminous studio floor.
+- No readable text, logo, watermark, UI, card frame, extra character, prop, weapon, wings, animal ears, or unreferenced accessory.
+- Avoid heavy black outlines, hard cel-shaded blocks, photorealism, glossy plastic 3D rendering, childlike proportions, exaggerated pin-up anatomy, cropped features, or malformed hands.
+
+## AURORA — confident, elegant, glamorous
+
+### Identity lock
+
+- Long vivid-purple hair with a broad side fringe, two small side twisted buns, and long flowing ponytail sections.
+- Purple almond-shaped eyes; mature soft oval face; calm, confident closed-mouth smile.
+- Purple cropped bustier with fine magenta piping.
+- Asymmetric high-waisted purple mini skirt with small gold geometric studs.
+- Cropped pearlescent silver jacket with a deep-purple feathered collar and dark sleeve bands.
+- Layered gold necklaces, angular star-like gold earrings, geometric gold belt ornament.
+- Purple ankle boots.
+- Palette: violet, deep purple, pearlescent silver, warm gold.
+
+### Personality direction
+
+Poised, self-assured, fashionable, and approachable. Never arrogant, cold, villainous, or childlike.
+
+### Background
+
+Pale lavender, violet, and pearl-white studio gradient.
+
+## RIVA — frank, dependable big sister
+
+### Identity lock
+
+- Warm auburn/chestnut hair with caramel highlights; large high voluminous ponytail; long face-framing locks; gold tie near the ponytail end.
+- Crimson-red upturned almond eyes; mature soft-heart face.
+- Glossy pale-pink cropped jacket with gold piping and a small nonverbal gold shoulder motif.
+- Dark-brown cropped bustier; fitted red-orange mini skirt; pink belt.
+- Dark-brown fingerless gloves.
+- Two dark-brown gold-buckled straps around one upper thigh.
+- Tall fitted dark-brown high-heeled boots with subtle red soles.
+- Palette: auburn, red-orange, pale pink, dark brown, warm gold.
+
+### Personality direction
+
+Direct, warm, practical, protective, and naturally in charge. Use open eye contact, a relaxed confident smile, grounded weight, and a firm hand-on-hip gesture. Never coy, aloof, aristocratic, or seductive.
+
+### Background
+
+Pale rose-brown, warm blush, soft apricot, and pearl-white studio gradient.
+
+## SANDRA — natural, cheerful, absent-minded big sister
+
+### Identity lock
+
+- Saturated cobalt-to-cyan blue hair with a braided crown/updo, short tied back section, and long loose face-framing strands.
+- Bright blue eyes.
+- Large translucent blue sunglasses resting on top of her head; small gold earring.
+- Fitted sleeveless blue-violet cropped athletic top with high collar, gold zipper/trim, and burgundy buckle tabs.
+- Oversized silver-white/deep-blue jacket worn loosely off both shoulders; quilted purple interior; dark cuffs.
+- Glossy blue-violet high-waisted shorts with gold hardware and purple-burgundy belt structures.
+- One leg bare; the other wears a blue-violet thigh-high stocking with a glossy top panel.
+- Deep-violet ankle boots.
+- Palette: cobalt, cyan, blue-violet, silver-white, burgundy, restrained gold.
+
+### Personality direction
+
+Guileless, cheerful, sincere, slightly slow to catch on, and unintentionally funny. Use wide luminous eyes, raised relaxed brows, a bright mildly surprised smile, a casual stance, and a spontaneous hand-near-cheek gesture. Never vacant, childish, deliberately foolish, or seductive.
+
+### Background
+
+Pale cyan, powder blue, periwinkle, and icy white. Keep it airy; no dark navy or neon cyan.
+
+## SARA — bold, cool, decisive
+
+### Identity lock
+
+- Extremely long straight golden-orange hair reaching near the lower legs; heavy clean blunt fringe; long side locks; one slim front section gathered by a gold cylindrical tie.
+- Golden-amber almond eyes; gold starburst earring.
+- Olive-brown structured cropped bustier with crossed dark upper-chest straps.
+- Cropped silver-white jacket with high popped collar, pink-lilac lining, gold cuffs and shoulder tabs, and tiny turquoise accents.
+- High-waisted fitted brown full-length trousers with front X-lacing and multiple muted-rose side straps with gold buckles.
+- Wrapped wrists; mauve-brown strappy high-heeled shoes.
+- Palette: golden orange, honey gold, amber, olive brown, cocoa, silver-white, muted rose, tiny turquoise accents.
+
+### Personality direction
+
+Fearless, self-directed, daring, stylish, and unwilling to back down. Use steady direct eyes, confident brows, a subtle challenging half-smile, open shoulders, a grounded wide stance, and a firm hand on the hip. Never angry, villainous, masculine, timid, or overly seductive.
+
+### Background
+
+Pale champagne gold, soft apricot, light honey, and creamy ivory. Avoid dark orange, brown corners, and white-hot divine halos.
+
+## TARA — gentle, empathetic peacemaker
+
+### Identity lock
+
+- Rose-pink to deep-magenta hair in a very long, thick, softly waved high ponytail; layered side fringe; curled face-framing tendrils.
+- Magenta-violet almond eyes.
+- Deep plum-magenta soft military/newsboy cap with structured brim and abstract non-readable gold decoration.
+- Dusty-magenta cropped off-shoulder jacket with gold zipper and fine gold trim.
+- Deep-raspberry fitted cropped top.
+- Pale blush-pink high-waisted fitted full-length trousers with a slim pink belt.
+- Dark fingerless gloves; soft mauve wraps around one forearm/wrist.
+- Deep-raspberry platform high-heeled pumps.
+- Palette: rose pink, blush, raspberry, plum, pearl white, restrained gold, dark glove accents.
+
+### Personality direction
+
+Gentle, attentive, emotionally steady, diplomatic, and quietly confident. Use relaxed brows, soft luminous eyes, a warm sincere closed-mouth smile, relaxed shoulders, one hand lightly near the collarbone, and the other open at her side. Never timid, submissive, sad, anxious, flirtatious, or weak.
+
+### Background
+
+Pale rose, blush, soft peach, light mauve, and creamy pearl. Keep the upper field bright and low-saturation; avoid dark magenta and neon pink.
+
+## Required prompt footer
+
+Append this instruction to every X-STARS generation or edit prompt:
+
+> The original supplied image is the sole authority for this character's identity, hairstyle, costume, accessories, and palette. This task is a faithful series-style conversion or targeted refinement, not a redesign. Preserve all identity-critical traits in `config/x-stars-character-bible.md`; never borrow traits from another X-STARS character. Match the approved AURORA reference for line weight, facial maturity, anatomy, rendering, character scale, studio lighting, background value structure, floor reflection, and vertical full-body framing. Background hue may follow the requested character's hair color, but series luminance and layout must remain consistent. No readable text, logo, UI, frame, watermark, extra character, or unreferenced element.

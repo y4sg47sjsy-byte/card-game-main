@@ -16,4 +16,14 @@ Codex must preserve these boundaries:
 - Do not add schemas, databases, frameworks, ADRs, automated review, test frameworks, advanced provenance, advanced crop logic, or print color-management infrastructure unless explicitly requested.
 - Prefer the smallest working change. Do not broaden the MVP in anticipation of future needs.
 
+## X-STARS character generation
+
+- `config/x-stars-character-bible.md` is the authoritative character and series-art input for AURORA, RIVA, SANDRA, SARA, and TARA.
+- Before any X-STARS generation or edit, read that file in full and make every named local visual reference visible to image generation.
+- Use the requested character's `assets/references/x-stars/*-original.png` image for identity and `assets/references/x-stars/AURORA-korean-webtoon-style-approved.png` for series style.
+- Confirm the interpretation before a character's first generation. Do not invent or mix identity, costume, personality, palette, or accessories.
+- Include the bible's Required prompt footer in every X-STARS generation or edit prompt.
+- Background hue follows the requested character's hair color; background value structure, character scale, lighting, floor reflection, and vertical full-body framing follow AURORA.
+- Never overwrite an original reference or an earlier generated result.
+
 Project skills live at `skills/generate-card-art/SKILL.md` and `skills/compose-card/SKILL.md`. Read the matching skill before running either workflow.

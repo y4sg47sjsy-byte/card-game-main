@@ -1,0 +1,52 @@
+canvas:
+  width: 750
+  height: 1050
+  background: "#17191f"
+  border_color: "#d18a3a"
+  border_width: 10
+
+illustration:
+  x: 48
+  y: 118
+  width: 654
+  height: 560
+  border_color: "#d18a3a"
+  border_width: 4
+
+text:
+  color: "#f3eadb"
+  muted_color: "#c8bba8"
+  panel_color: "#242832"
+  font_path: "C:/Windows/Fonts/msjh.ttc"
+  title:
+    x: 54
+    y: 42
+    width: 570
+    height: 58
+    font_size: 40
+    min_font_size: 28
+    align: left
+  cost:
+    x: 644
+    y: 35
+    width: 60
+    height: 66
+    font_size: 44
+    min_font_size: 32
+    align: center
+  type:
+    x: 58
+    y: 700
+    width: 634
+    height: 42
+    font_size: 25
+    min_font_size: 20
+    align: left
+  rules_text:
+    x: 58
+    y: 765
+    width: 634
+    height: 220
+    font_size: 30
+    min_font_size: 20
+    align: left

@@ -1,0 +1,30 @@
+run_id: 20260902-140812-gummy-king-001
+card_id: gummy-king-001
+created_at: "2026-09-02T14:08:12+08:00"
+status: composed
+completed_at: "2026-09-02T14:14:25+08:00"
+composed_at: "2026-09-02T15:08:56+08:00"
+generator: built-in-imagegen
+contact_sheet: contact-sheet.png
+selected_candidate: candidate-03.png
+final_output: output/gummy-king-001--20260902-140812-gummy-king-001.png
+art_window:
+  width: 654
+  height: 560
+  aspect_ratio: "327:280"
+  crop: center
+references:
+  - path: assets/references/icon_12_軟糖熊國王.png
+    role: primary_identity
+  - path: assets/references/icon_00_熊皇后.png
+    role: series_visual_language_only
+  - path: assets/references/icon_01_軟糖龍.png
+    role: series_visual_language_only
+  - path: assets/references/icon_02_軟糖獨角獸.png
+    role: series_visual_language_only
+  - path: assets/references/icon_13_黃金軟糖熊國王.png
+    role: series_visual_language_only
+candidates:
+  - candidate-01.png
+  - candidate-02.png
+  - candidate-03.png

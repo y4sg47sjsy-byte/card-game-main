@@ -1,0 +1,109 @@
+project: WANIN
+status: smoke_test
+cards:
+  - id: gummy-king-001
+    title: 軟糖熊國王
+    type: Character
+    rarity: SSR
+    cost: ""
+    rules_text: ""
+    art_brief: >-
+      軟糖熊國王坐在華麗的糖果王座上，一手高舉金色圓球權杖，另一手向前伸出，
+      興奮地展示周圍的金幣、彩色糖果與寶石般軟糖。背景是華麗但可愛的糖果王國宮殿，
+      傳達全年齡休閒博弈遊戲中剛獲得 Jackpot 的歡樂、得意、富有與誇張爽感。
+    identity_constraints:
+      - 粉紅色、圓潤的軟糖熊身體
+      - 金色皇冠
+      - 白色披風
+      - 糖果造型胸前裝飾
+      - 金色圓球權杖
+      - 簡單圓形眼睛與熊型臉部結構
+      - 光滑、半透明感的糖果／軟糖材質
+    composition:
+      - 最終卡面為直式，但 illustration 必須專為 template 的 654×560（約 7:6）橫向視窗構圖
+      - 角色占畫面約 60–70%，是絕對主體
+      - 略微低角度的英雄式構圖
+      - 完整頭部、皇冠與主要身體不可被裁切
+      - 背景提供世界觀與 Jackpot 氣氛但不得搶過角色
+    forbidden_elements:
+      - 卡框、文字、UI、logo 或 watermark
+      - 改變角色主要配色
+      - 寫實毛髮、寫實熊、一般泰迪熊或人形比例
+      - 過暗背景
+      - 混入熊皇后、黃金熊王或軟糖龍的角色特徵
+    references:
+      - assets/references/icon_12_軟糖熊國王.png
+      - assets/references/icon_00_熊皇后.png
+      - assets/references/icon_01_軟糖龍.png
+      - assets/references/icon_02_軟糖獨角獸.png
+      - assets/references/icon_13_黃金軟糖熊國王.png
+  - id: gummy-queen-001
+    title: 熊皇后
+    type: Character
+    rarity: SSR
+    cost: ""
+    rules_text: ""
+    art_brief: >-
+      系列一致性 smoke test：熊皇后在明亮的糖果王國宮殿中展示閃亮的糖果寶藏，
+      畫面具有歡樂、華麗、全年齡的 Jackpot 慶祝感。本 brief 僅用於 pipeline validation，
+      不定義正式 WANIN 劇情或卡牌設定。
+    identity_constraints:
+      - 亮綠色、圓潤、光滑半透明的軟糖熊身體
+      - 小型金色皇冠，帶紅色愛心頂飾與粉白糖果珠裝飾
+      - 粉紅至洋紅色的裙裝與披風，以及粉白色半透明領飾
+      - 胸前粉白色旋轉糖果裝飾
+      - 金色圓球權杖
+      - 簡單圓形眼睛、明顯睫毛與熊型臉部結構
+    composition:
+      - illustration 專為 template 的 654×560（約 7:6）橫向視窗構圖
+      - 角色占畫面約 60–65%，是絕對主體
+      - 使用略微低角度的收藏卡英雄式構圖
+      - 完整皇冠、臉、權杖、主要身體與服裝輪廓必須位於 center-crop-safe region
+      - 背景提供糖果宮殿與 Jackpot 氣氛但不得搶過角色
+    forbidden_elements:
+      - 卡框、文字、UI、logo 或 watermark
+      - 寫實毛髮、寫實熊、一般泰迪熊或人形比例
+      - 過暗背景
+      - 混入軟糖熊國王、黃金軟糖熊國王、軟糖龍或軟糖獨角獸的角色特徵
+    references:
+      - assets/references/icon_00_熊皇后.png
+      - assets/references/icon_12_軟糖熊國王.png
+      - assets/references/icon_01_軟糖龍.png
+      - assets/references/icon_02_軟糖獨角獸.png
+      - assets/references/icon_13_黃金軟糖熊國王.png
+  - id: gummy-dragon-001
+    title: 軟糖龍
+    type: Character
+    rarity: SSR
+    cost: ""
+    rules_text: ""
+    art_brief: >-
+      系列一致性 smoke test：軟糖龍在明亮的糖果王國宮殿中守著並興奮展示閃亮的糖果寶藏，
+      畫面具有歡樂、華麗、全年齡的 Jackpot 慶祝感。本 brief 僅用於 pipeline validation，
+      不定義正式 WANIN 劇情或卡牌設定。
+    identity_constraints:
+      - 亮藍色、圓潤、光滑半透明的軟糖龍身體
+      - 大而圓潤的長吻與兩個小鼻孔
+      - 兩支華夫甜筒造型的角
+      - 頭頂粉紅色糖漿／糖霜冠狀裝飾
+      - 簡單橢圓亮面眼睛
+      - 背部圓潤棘刺、短前肢、粗壯後腿與向內收束的長尾
+      - 不增加翅膀、皇冠、權杖或熊型特徵
+    composition:
+      - illustration 專為 template 的 654×560（約 7:6）橫向視窗構圖
+      - 角色占畫面約 60–65%，是絕對主體
+      - 使用略微低角度的收藏卡英雄式構圖
+      - 完整雙角、臉、四肢、背棘與主要尾部輪廓必須位於 center-crop-safe region
+      - 背景提供糖果宮殿與 Jackpot 氣氛但不得搶過角色
+    forbidden_elements:
+      - 卡框、文字、UI、logo 或 watermark
+      - 寫實鱗片、寫實爬蟲 anatomy、兇殘恐怖表情或人形比例
+      - 翅膀、皇冠、權杖或服裝
+      - 過暗背景
+      - 混入熊皇后、兩位熊國王或軟糖獨角獸的角色特徵
+    references:
+      - assets/references/icon_01_軟糖龍.png
+      - assets/references/icon_12_軟糖熊國王.png
+      - assets/references/icon_00_熊皇后.png
+      - assets/references/icon_02_軟糖獨角獸.png
+      - assets/references/icon_13_黃金軟糖熊國王.png

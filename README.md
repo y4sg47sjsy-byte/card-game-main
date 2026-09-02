@@ -31,7 +31,7 @@ Before generation:
 
 Reference files must be shown to image generation as actual visual inputs. A path written into a prompt is not a substitute for loading the image.
 
-For X-STARS character illustration work, `config/x-stars-character-bible.md` defines the approved five-character identity locks, personality direction, series rendering rules, hair-matched background rules, and mandatory prompt footer. Read and follow it before every X-STARS generation or edit.
+For X-STARS character illustration work, `config/x-stars-character-bible.md` defines the final-approved five-character identity locks, personality direction, series rendering rules, hair-matched background rules, and mandatory prompt footer. The final images live under `assets/references/x-stars/final-approved/` and take precedence over historical source references. Read and follow the bible before every X-STARS generation or edit.
 
 ## 1. Generate candidates
 

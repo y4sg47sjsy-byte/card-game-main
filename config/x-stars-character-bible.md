@@ -1,23 +1,24 @@
 # X-STARS Character & Art Bible
 
-Status: `approved`
+Status: `final-approved`
 
 This file is the authoritative identity and series-art input for the five approved X-STARS characters. It does not define story canon beyond the visual traits and personalities explicitly confirmed by the user.
 
 ## Approved visual references
 
-- Series-style reference: `assets/references/x-stars/AURORA-korean-webtoon-style-approved.png`
-- AURORA identity: `assets/references/x-stars/AURORA-original.png`
-- RIVA identity: `assets/references/x-stars/RIVA-original.png`
-- SANDRA identity: `assets/references/x-stars/SANDRA-original.png`
-- SARA identity: `assets/references/x-stars/SARA-original.png`
-- TARA identity: `assets/references/x-stars/TARA-original.png`
+- Final AURORA: `assets/references/x-stars/final-approved/AURORA.png`
+- Final RIVA: `assets/references/x-stars/final-approved/RIVA.png`
+- Final SANDRA: `assets/references/x-stars/final-approved/SANDRA.png`
+- Final SARA: `assets/references/x-stars/final-approved/SARA.png`
+- Final TARA: `assets/references/x-stars/final-approved/TARA.png`
+
+The five files above are the final approved character images and the highest-authority visual references. Earlier `*-original.png` files remain historical source references and must not override a final-approved image.
 
 ## Mandatory generation rules
 
 - Read this file before generating or editing any X-STARS character.
-- Use the named character's original image from the Approved visual references as the authoritative identity reference.
-- Use `AURORA-korean-webtoon-style-approved.png` as the series-style reference.
+- Use the named character's image under `assets/references/x-stars/final-approved/` as the authoritative identity, costume, personality-expression, proportion, and palette reference.
+- Use `assets/references/x-stars/final-approved/AURORA.png` as the series-style reference.
 - Make every local reference image visible to image generation; a filesystem path in a prompt is not a visual input.
 - Confirm the interpretation of a new character with the user before its first generation.
 - Treat generation as a faithful style conversion and quality upgrade, not a redesign.
@@ -150,4 +151,4 @@ Pale rose, blush, soft peach, light mauve, and creamy pearl. Keep the upper fiel
 
 Append this instruction to every X-STARS generation or edit prompt:
 
-> The original supplied image is the sole authority for this character's identity, hairstyle, costume, accessories, and palette. This task is a faithful series-style conversion or targeted refinement, not a redesign. Preserve all identity-critical traits in `config/x-stars-character-bible.md`; never borrow traits from another X-STARS character. Match the approved AURORA reference for line weight, facial maturity, anatomy, rendering, character scale, studio lighting, background value structure, floor reflection, and vertical full-body framing. Background hue may follow the requested character's hair color, but series luminance and layout must remain consistent. No readable text, logo, UI, frame, watermark, extra character, or unreferenced element.
+> The requested character's image under `assets/references/x-stars/final-approved/` is the highest authority for identity, hairstyle, face, expression, anatomy, costume, accessories, palette, and approved presentation. This task is a faithful continuation or targeted refinement, not a redesign. Preserve all identity-critical traits in `config/x-stars-character-bible.md`; never borrow traits from another X-STARS character. Match `assets/references/x-stars/final-approved/AURORA.png` for line weight, facial maturity, rendering, character scale, studio lighting, background value structure, floor reflection, and vertical full-body framing. Background hue follows the requested character's final-approved image. No readable text, logo, UI, frame, watermark, extra character, or unreferenced element.

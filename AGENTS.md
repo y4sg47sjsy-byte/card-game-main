@@ -20,7 +20,7 @@ Codex must preserve these boundaries:
 
 - `config/x-stars-character-bible.md` is the authoritative character and series-art input for AURORA, RIVA, SANDRA, SARA, and TARA.
 - Before any X-STARS generation or edit, read that file in full and make every named local visual reference visible to image generation.
-- Use the requested character's `assets/references/x-stars/*-original.png` image for identity and `assets/references/x-stars/AURORA-korean-webtoon-style-approved.png` for series style.
+- Use the requested character's `assets/references/x-stars/final-approved/<CHARACTER>.png` image as the highest-authority identity reference and `assets/references/x-stars/final-approved/AURORA.png` as the series-style reference. Earlier `*-original.png` files are historical sources only.
 - Confirm the interpretation before a character's first generation. Do not invent or mix identity, costume, personality, palette, or accessories.
 - Include the bible's Required prompt footer in every X-STARS generation or edit prompt.
 - Background hue follows the requested character's hair color; background value structure, character scale, lighting, floor reflection, and vertical full-body framing follow AURORA.

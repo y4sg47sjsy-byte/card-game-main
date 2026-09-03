@@ -17,13 +17,13 @@ The five files above are the final approved character images and the highest-aut
 ## Mandatory generation rules
 
 - Read this file before generating or editing any X-STARS character.
-- Use the named character's image under `assets/references/x-stars/final-approved/` as the authoritative identity, costume, personality-expression, proportion, and palette reference.
-- Use `assets/references/x-stars/final-approved/AURORA.png` as the series-style reference.
+- Use the named character's image under `assets/references/x-stars/final-approved/` as the authoritative identity, costume, anatomy, proportion, and palette reference.
+- Use `assets/references/x-stars/final-approved/AURORA.png` as the series rendering-style reference.
 - Make every local reference image visible to image generation; a filesystem path in a prompt is not a visual input.
 - Confirm the interpretation of a new character with the user before its first generation.
-- Treat generation as a faithful style conversion and quality upgrade, not a redesign.
+- Treat the character identity as a faithful continuation, not a redesign. Camera, framing, pose, expression, background, and lighting are card-specific creative choices.
 - Preserve every identity-critical feature listed for the requested character.
-- Never mix hair, face, costume, accessories, palette, or personality signals between characters.
+- Never mix hair, face, costume, accessories, or palette between characters.
 - A retry creates a new image. Never overwrite an original reference or earlier result.
 
 ## Shared series art direction
@@ -34,19 +34,17 @@ The five files above are the final approved character images and the highest-aut
 - Smooth controlled gradients with selective painterly transitions.
 - Natural, elegant adult anatomy; long-legged but not excessively elongated.
 - Refined skin, hair, fabric, leather, iridescent material, and restrained metal highlights.
-- One adult character only, centered in a vertical full-body composition.
-- Entire hair silhouette, hands, legs, and both shoes must remain inside the frame.
-- Match AURORA's character scale, margins, studio-light softness, background luminance, floor reflection, and soft grounding shadow.
-- Background hue follows the character's hair color, while value structure remains consistent: medium-light outer field, pale central halo, soft vertical bloom, restrained diagonal rays, sparse particles, and a luminous studio floor.
+- Camera angle, shot size, framing, pose, expression, background, lighting, and environmental effects follow the approved card-specific `art_brief`.
+- The character bible does not require a particular background hue, value structure, character scale, margin, floor reflection, or grounding treatment.
 - No readable text, logo, watermark, UI, card frame, extra character, prop, weapon, wings, animal ears, or unreferenced accessory.
-- Avoid heavy black outlines, hard cel-shaded blocks, photorealism, glossy plastic 3D rendering, childlike proportions, exaggerated pin-up anatomy, cropped features, or malformed hands.
+- Avoid heavy black outlines, hard cel-shaded blocks, photorealism, glossy plastic 3D rendering, childlike proportions, exaggerated pin-up anatomy, or malformed hands.
 
-## AURORA — confident, elegant, glamorous
+## AURORA
 
 ### Identity lock
 
 - Long vivid-purple hair with a broad side fringe, two small side twisted buns, and long flowing ponytail sections.
-- Purple almond-shaped eyes; mature soft oval face; calm, confident closed-mouth smile.
+- Purple almond-shaped eyes; mature soft oval face.
 - Purple cropped bustier with fine magenta piping.
 - Asymmetric high-waisted purple mini skirt with small gold geometric studs.
 - Cropped pearlescent silver jacket with a deep-purple feathered collar and dark sleeve bands.
@@ -54,15 +52,7 @@ The five files above are the final approved character images and the highest-aut
 - Purple ankle boots.
 - Palette: violet, deep purple, pearlescent silver, warm gold.
 
-### Personality direction
-
-Poised, self-assured, fashionable, and approachable. Never arrogant, cold, villainous, or childlike.
-
-### Background
-
-Pale lavender, violet, and pearl-white studio gradient.
-
-## RIVA — frank, dependable big sister
+## RIVA
 
 ### Identity lock
 
@@ -75,15 +65,7 @@ Pale lavender, violet, and pearl-white studio gradient.
 - Tall fitted dark-brown high-heeled boots with subtle red soles.
 - Palette: auburn, red-orange, pale pink, dark brown, warm gold.
 
-### Personality direction
-
-Direct, warm, practical, protective, and naturally in charge. Use open eye contact, a relaxed confident smile, grounded weight, and a firm hand-on-hip gesture. Never coy, aloof, aristocratic, or seductive.
-
-### Background
-
-Pale rose-brown, warm blush, soft apricot, and pearl-white studio gradient.
-
-## SANDRA — natural, cheerful, absent-minded big sister
+## SANDRA
 
 ### Identity lock
 
@@ -97,15 +79,7 @@ Pale rose-brown, warm blush, soft apricot, and pearl-white studio gradient.
 - Deep-violet ankle boots.
 - Palette: cobalt, cyan, blue-violet, silver-white, burgundy, restrained gold.
 
-### Personality direction
-
-Guileless, cheerful, sincere, slightly slow to catch on, and unintentionally funny. Use wide luminous eyes, raised relaxed brows, a bright mildly surprised smile, a casual stance, and a spontaneous hand-near-cheek gesture. Never vacant, childish, deliberately foolish, or seductive.
-
-### Background
-
-Pale cyan, powder blue, periwinkle, and icy white. Keep it airy; no dark navy or neon cyan.
-
-## SARA — bold, cool, decisive
+## SARA
 
 ### Identity lock
 
@@ -117,15 +91,7 @@ Pale cyan, powder blue, periwinkle, and icy white. Keep it airy; no dark navy or
 - Wrapped wrists; mauve-brown strappy high-heeled shoes.
 - Palette: golden orange, honey gold, amber, olive brown, cocoa, silver-white, muted rose, tiny turquoise accents.
 
-### Personality direction
-
-Fearless, self-directed, daring, stylish, and unwilling to back down. Use steady direct eyes, confident brows, a subtle challenging half-smile, open shoulders, a grounded wide stance, and a firm hand on the hip. Never angry, villainous, masculine, timid, or overly seductive.
-
-### Background
-
-Pale champagne gold, soft apricot, light honey, and creamy ivory. Avoid dark orange, brown corners, and white-hot divine halos.
-
-## TARA — gentle, empathetic peacemaker
+## TARA
 
 ### Identity lock
 
@@ -139,16 +105,8 @@ Pale champagne gold, soft apricot, light honey, and creamy ivory. Avoid dark ora
 - Deep-raspberry platform high-heeled pumps.
 - Palette: rose pink, blush, raspberry, plum, pearl white, restrained gold, dark glove accents.
 
-### Personality direction
-
-Gentle, attentive, emotionally steady, diplomatic, and quietly confident. Use relaxed brows, soft luminous eyes, a warm sincere closed-mouth smile, relaxed shoulders, one hand lightly near the collarbone, and the other open at her side. Never timid, submissive, sad, anxious, flirtatious, or weak.
-
-### Background
-
-Pale rose, blush, soft peach, light mauve, and creamy pearl. Keep the upper field bright and low-saturation; avoid dark magenta and neon pink.
-
 ## Required prompt footer
 
 Append this instruction to every X-STARS generation or edit prompt:
 
-> The requested character's image under `assets/references/x-stars/final-approved/` is the highest authority for identity, hairstyle, face, expression, anatomy, costume, accessories, palette, and approved presentation. This task is a faithful continuation or targeted refinement, not a redesign. Preserve all identity-critical traits in `config/x-stars-character-bible.md`; never borrow traits from another X-STARS character. Match `assets/references/x-stars/final-approved/AURORA.png` for line weight, facial maturity, rendering, character scale, studio lighting, background value structure, floor reflection, and vertical full-body framing. Background hue follows the requested character's final-approved image. No readable text, logo, UI, frame, watermark, extra character, or unreferenced element.
+> The requested character's image under `assets/references/x-stars/final-approved/` is the highest authority for identity, hairstyle, face, anatomy, costume, accessories, proportions, and palette. Preserve all identity-critical traits in `config/x-stars-character-bible.md`; never borrow traits from another X-STARS character. Match `assets/references/x-stars/final-approved/AURORA.png` for line weight, facial maturity, and rendering quality. Camera angle, framing, pose, expression, background, lighting, and environmental effects follow the approved card-specific `art_brief`. No readable text, logo, UI, frame, watermark, extra character, or unreferenced element.

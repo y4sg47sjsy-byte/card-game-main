@@ -20,10 +20,10 @@ Codex must preserve these boundaries:
 
 - `config/x-stars-character-bible.md` is the authoritative character and series-art input for AURORA, RIVA, SANDRA, SARA, and TARA.
 - Before any X-STARS generation or edit, read that file in full and make every named local visual reference visible to image generation.
-- Use the requested character's `assets/references/x-stars/final-approved/<CHARACTER>.png` image as the highest-authority identity reference and `assets/references/x-stars/final-approved/AURORA.png` as the series-style reference. Earlier `*-original.png` files are historical sources only.
-- Confirm the interpretation before a character's first generation. Do not invent or mix identity, costume, personality, palette, or accessories.
+- Use the requested character's `assets/references/x-stars/final-approved/<CHARACTER>.png` image as the highest-authority identity reference and `assets/references/x-stars/final-approved/AURORA.png` as the series rendering-style reference. Earlier `*-original.png` files are historical sources only.
+- Confirm the interpretation before a character's first generation. Do not invent or mix identity, costume, palette, or accessories.
 - Include the bible's Required prompt footer in every X-STARS generation or edit prompt.
-- Background hue follows the requested character's hair color; background value structure, character scale, lighting, floor reflection, and vertical full-body framing follow AURORA.
+- Camera, framing, pose, expression, background, and lighting follow the approved card-specific `art_brief`; the character bible does not constrain them.
 - Never overwrite an original reference or an earlier generated result.
 
 Project skills live at `skills/generate-card-art/SKILL.md` and `skills/compose-card/SKILL.md`. Read the matching skill before running either workflow.

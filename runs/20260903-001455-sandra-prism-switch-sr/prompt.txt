@@ -1,0 +1,14 @@
+Exact prompt record
+
+Common constraints used in every candidate: stylized-concept X-STARS SR collectible-card illustration only; premium Korean game-webtoon character-poster finish; one mature adult character occupying 60–65% of a 654×560 approximately 7:6 horizontal fixed-center-crop art window; complete identity-critical hair, face, both hands, prop and costume silhouette crop-safe. The named final-approved character image is the sole identity authority and final-approved AURORA is the rendering-style authority. Preserve config/x-stars-character-bible.md identity locks and its Required prompt footer. Costume transformation only. No readable text, logo, watermark, UI, card frame, extra or duplicate character, reflected duplicate face, weapon, wings, animal ears, casino imagery, photorealism, heavy black outlines, malformed hands, face-obscuring effects, or unreferenced elements. SR richness, not SSR spectacle. Expression, gaze, hands and body weight must authentically respond to the exact performance moment and the visible demeanor in the final-approved reference, never a generic model pose.
+
+Character/theme invariant: SANDRA — Prism Switch. Preserve bright blue eyes, saturated cobalt-to-cyan hair with braided crown/updo, short tied back section, long face-framing strands, translucent blue sunglasses on top of head and small gold earring. Violet, teal and iridescent-film outfit with asymmetric skirt panels, prism chest ornament and translucent sleeves. Circular lift, faceted mirrors and note-to-crystal abstract light transformation.
+
+candidate-01 — Controlled mid-turn
+Torso twists toward the audience while one palm presents the transformation; knowing focused half-smile and direct gaze communicate precise control.
+
+candidate-02 — Low rhythmic stance
+One hand guides the note trail upward and the other marks the rhythm; concentrated eyes follow the transformation then glance confidently toward the audience.
+
+candidate-03 — Transformation resolved
+Upright finishing pose with crystal light above open palm, free arm extended for balance, chin slightly lowered with cool satisfaction.

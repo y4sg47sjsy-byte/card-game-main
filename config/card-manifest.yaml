@@ -1,3 +1,252 @@
-project: WANIN
-status: draft
-cards: []
+project: X-STARS
+status: production_content_ready
+set: X-STARS DEBUT STAGE
+cards:
+  - id: aurora-neon-pulse-sr
+    title: AURORA · NEON PULSE
+    type: X-STARS CHARACTER · SR
+    rarity: SR
+    cost: "3"
+    rules_text: "登場時，取得 1 個 MIC Symbol。"
+    character_id: AURORA
+    ability_type: gain_symbol
+    target_symbol: MIC
+    set: X-STARS DEBUT STAGE
+    card_no: XS01-001
+    art_brief: >-
+      完整保留 final-approved reference 中 AURORA 的原設定服裝、配件、配色與 identity，不換裝也不新增配件。AURORA 在 Neon Pulse 舞台上向前踏步並抬手掌握節拍，帶著沉浸演出、略帶興奮的自信表情；背景為洋紅與青藍 LED 光牆、柔化觀眾光點與節奏光束。使用洋紅主光、青藍輪廓光及清晰臉部補光，呈現 SR 的明亮舞台能量與收藏感。
+    identity_constraints:
+      - 角色 identity 僅以 AURORA 的 primary reference 為準
+      - 完整保留 reference 中的臉部、五官、髮型、髮色、體型、膚色與辨識特徵
+      - 完整保留原設定服裝與配件，不得換裝或新增配件
+      - 不得混入其他 X-STARS 成員的 identity 特徵
+    composition:
+      - illustration 專為 template 的 654×560（約 7:6）橫向視窗構圖
+      - 單一角色占畫面約 60–65%，採中景至近全身的動態英雄式構圖
+      - 完整頭部、髮型、雙手與服裝辨識輪廓置於 center-crop-safe region
+      - 背景建立舞台主題但不得搶過角色
+    forbidden_elements: &character_forbidden
+      - 卡框、文字、數字、UI、logo、團名或 watermark
+      - 改變 reference 定義的角色 identity、年齡感或身體比例
+      - 其他成員、重複角色、替身或 crowd 中的清晰人物
+      - 武器、戰鬥、傷害、過暗或恐怖氛圍
+      - 賭桌、撲克牌、籌碼、輪盤或寫實博彩場景
+    references:
+      - assets/references/x-stars/final-approved/AURORA.png
+
+  - id: riva-prism-switch-sr
+    title: RIVA · PRISM SWITCH
+    type: X-STARS CHARACTER · SR
+    rarity: SR
+    cost: "4"
+    rules_text: "每回合 1 次：將 1 個 NOTE Symbol 轉換為 1 個 GEM Symbol。"
+    character_id: RIVA
+    ability_type: convert_symbol
+    target_symbol:
+      from: NOTE
+      to: GEM
+    set: X-STARS DEBUT STAGE
+    card_no: XS01-002
+    art_brief: >-
+      完整保留 final-approved reference 中 RIVA 的原設定服裝、配件、配色與 identity，不換裝也不新增配件。RIVA 在 Prism Switch 多面鏡舞台上俐落轉身，一手扶腰、一手撥開折射光幕，表情專注並帶有完成精彩轉場後的爽朗笑意；背景使用暖紅、玫瑰金、琥珀與少量紫色稜鏡折射。暖金主光與紅紫輪廓光呈現 SR 的技巧感與華麗轉換效果。
+    identity_constraints:
+      - 角色 identity 僅以 RIVA 的 primary reference 為準
+      - 完整保留 reference 中的臉部、五官、髮型、髮色、體型、膚色與辨識特徵
+      - 完整保留原設定服裝與配件，不得換裝或新增配件
+      - 不得混入其他 X-STARS 成員的 identity 特徵
+    composition:
+      - illustration 專為 template 的 654×560（約 7:6）橫向視窗構圖
+      - 單一角色占畫面約 60–65%，旋身姿勢形成清楚輪廓
+      - 完整頭部、髮型、雙手與服裝辨識輪廓置於 center-crop-safe region
+      - 稜鏡與光效不得遮住臉部或形成第二角色錯覺
+    forbidden_elements: *character_forbidden
+    references:
+      - assets/references/x-stars/final-approved/RIVA.png
+
+  - id: sandra-crystal-rhythm-sr
+    title: SANDRA · CRYSTAL RHYTHM
+    type: X-STARS CHARACTER · SR
+    rarity: SR
+    cost: "3"
+    rules_text: "登場時，取得 1 個 NOTE Symbol。"
+    character_id: SANDRA
+    ability_type: gain_symbol
+    target_symbol: NOTE
+    set: X-STARS DEBUT STAGE
+    card_no: XS01-003
+    art_brief: >-
+      完整保留 final-approved reference 中 SANDRA 的原設定服裝、配件、配色與 identity，不換裝也不新增配件。SANDRA 在 Crystal Rhythm 透明階梯舞台上順著節拍輕快旋身，一手靠近臉側，露出捕捉到音樂驚喜瞬間的明亮笑容；背景為冰藍晶體拱門、抽象節奏光軌與柔焦燈海。冷白主光、淡紫反射及銀藍高光呈現 SR 的清透華麗與節奏感。
+    identity_constraints:
+      - 角色 identity 僅以 SANDRA 的 primary reference 為準
+      - 完整保留 reference 中的臉部、五官、髮型、髮色、體型、膚色與辨識特徵
+      - 完整保留原設定服裝與配件，不得換裝或新增配件
+      - 不得混入其他 X-STARS 成員的 identity 特徵
+    composition:
+      - illustration 專為 template 的 654×560（約 7:6）橫向視窗構圖
+      - 單一角色占畫面約 60–65%，旋身姿勢形成清楚輪廓
+      - 完整頭部、髮型、太陽眼鏡、雙手與服裝辨識輪廓置於 center-crop-safe region
+      - 抽象音樂元素不得形成文字或 UI
+    forbidden_elements: *character_forbidden
+    references:
+      - assets/references/x-stars/final-approved/SANDRA.png
+
+  - id: sara-starlight-echo-sr
+    title: SARA · STARLIGHT ECHO
+    type: X-STARS CHARACTER · SR
+    rarity: SR
+    cost: "4"
+    rules_text: "取得 STAR Symbol 時，每回合 1 次，額外取得 1 個 STAR Symbol。"
+    character_id: SARA
+    ability_type: copy_symbol
+    target_symbol: STAR
+    set: X-STARS DEBUT STAGE
+    card_no: XS01-004
+    art_brief: >-
+      完整保留 final-approved reference 中 SARA 的原設定服裝、配件、配色與 identity，不換裝也不新增配件。SARA 在 Starlight Echo 星空穹頂舞台上以寬穩站姿轉向鏡頭，一手扶腰、一手向外展開，帶著舞台高潮時果斷而滿足的半笑；身後兩道呼應的金色星芒光環形成 echo 意象。溫暖聚光、深藍輪廓光與細緻金色 sparkle 呈現 SR 的壓台感。
+    identity_constraints:
+      - 角色 identity 僅以 SARA 的 primary reference 為準
+      - 完整保留 reference 中的臉部、五官、髮型、髮色、體型、膚色與辨識特徵
+      - 完整保留原設定服裝與配件，不得換裝或新增配件
+      - 不得混入其他 X-STARS 成員的 identity 特徵
+    composition:
+      - illustration 專為 template 的 654×560（約 7:6）橫向視窗構圖
+      - 單一角色占畫面約 60–65%，略低視角的舞台高潮定格
+      - 完整頭部、極長髮輪廓、雙手與服裝辨識輪廓置於 center-crop-safe region
+      - 星幕可以深邃，但臉部與服裝必須明亮清楚
+    forbidden_elements: *character_forbidden
+    references:
+      - assets/references/x-stars/final-approved/SARA.png
+
+  - id: tara-cosmic-encore-sr
+    title: TARA · COSMIC ENCORE
+    type: X-STARS CHARACTER · SR
+    rarity: SR
+    cost: "5"
+    rules_text: "完成含 WILD 的 Stage Combo 時，額外獲得 1 STAR POINT。"
+    character_id: TARA
+    ability_type: stage_combo_bonus
+    target_symbol: WILD
+    set: X-STARS DEBUT STAGE
+    card_no: XS01-005
+    art_brief: >-
+      完整保留 final-approved reference 中 TARA 的原設定服裝、配件、配色與 identity，不換裝也不新增配件。TARA 在 Cosmic Encore 圓形舞台中央向觀眾溫暖揮手謝幕，另一手收在胸前，露出演出落幕時感動而明亮的笑容；周圍五色舞台光匯聚成虹彩星芒，背景為宇宙感 LED 穹頂與煙火光點。白金主光、紫藍輪廓光及虹彩高光呈現 SR 的壓軸與限定演出感。
+    identity_constraints:
+      - 角色 identity 僅以 TARA 的 primary reference 為準
+      - 完整保留 reference 中的臉部、五官、髮型、髮色、體型、膚色與辨識特徵
+      - 完整保留原設定服裝與配件，不得換裝或新增配件
+      - 不得混入其他 X-STARS 成員的 identity 特徵
+    composition:
+      - illustration 專為 template 的 654×560（約 7:6）橫向視窗構圖
+      - 單一角色占畫面約 60–65%，正面略低視角的 encore 定格
+      - 完整帽子、髮型、雙手與服裝辨識輪廓置於 center-crop-safe region
+      - 煙火與星芒不得遮擋角色或形成文字
+    forbidden_elements: *character_forbidden
+    references:
+      - assets/references/x-stars/final-approved/TARA.png
+
+  - id: xs-symbol-mic-001
+    title: MIC
+    type: X-STARS SYMBOL
+    rarity: R
+    cost: ""
+    rules_text: "Stage Combo 資源：MIC。"
+    ability_type: stage_symbol
+    target_symbol: MIC
+    set: X-STARS DEBUT STAGE
+    card_no: XS01-006
+    art_brief: >-
+      原創 MIC Symbol：精品手持麥克風，以玫瑰金金屬、深紫握柄與星光鑲邊構成，置於圓形舞台燈框中央。背景使用洋紅紫放射光、柔焦燈泡與亮片粒子，呈現高品質休閒 slot symbol 的飽滿體積、強烈高光與即時辨識度，同時保持偶像舞台而非寫實賭場語彙。
+    identity_constraints: &symbol_identity
+      - Symbol 必須是畫面唯一主體且第一眼可辨識
+      - 使用原創造型，不引用真實品牌、產品或 X-STARS 角色 identity
+      - 與同系列共用精品 3D、舞台燈框、飽和色彩與強高光語言
+    composition: &symbol_composition
+      - illustration 專為 template 的 654×560（約 7:6）橫向視窗構圖
+      - 單一大型 Symbol 置中，占畫面約 55–65%
+      - 完整輪廓置於 center-crop-safe region，縮圖尺寸仍可辨識
+      - 背景簡潔、明亮且對比清楚
+    forbidden_elements: &symbol_forbidden
+      - 卡框、文字、字母、數字、UI、logo、品牌或 watermark
+      - 人物、手、角色剪影或 X-STARS 成員特徵
+      - 多個競爭主體、低對比或過暗背景
+      - 賭桌、撲克牌、籌碼、輪盤或寫實博彩場景
+    references: []
+
+  - id: xs-symbol-note-001
+    title: NOTE
+    type: X-STARS SYMBOL
+    rarity: R
+    cost: ""
+    rules_text: "Stage Combo 資源：NOTE。"
+    ability_type: stage_symbol
+    target_symbol: NOTE
+    set: X-STARS DEBUT STAGE
+    card_no: XS01-007
+    art_brief: >-
+      原創 NOTE Symbol：圓潤厚實的雙八分音符立體徽章，以電光青藍到紫色漸層、銀色收邊與發光節拍環構成，置於圓形舞台燈框中央。背景使用藍紫放射光、抽象等化器光柱與亮片粒子，呈現高品質休閒 slot symbol 的飽滿體積、強烈高光與節奏爽感。
+    identity_constraints: *symbol_identity
+    composition: *symbol_composition
+    forbidden_elements: *symbol_forbidden
+    references: []
+
+  - id: xs-symbol-gem-001
+    title: GEM
+    type: X-STARS SYMBOL
+    rarity: R
+    cost: ""
+    rules_text: "Stage Combo 資源：GEM。"
+    ability_type: stage_symbol
+    target_symbol: GEM
+    set: X-STARS DEBUT STAGE
+    card_no: XS01-008
+    art_brief: >-
+      原創 GEM Symbol：大型多面切割心形寶石，以青綠、紫羅蘭與粉紅虹彩折射構成，外圍有銀色星芒托座，置於圓形舞台燈框中央。背景使用冷色放射光、稜鏡光斑與晶亮粒子，呈現高品質休閒 slot symbol 的厚實材質、清脆高光、珍貴感與即時辨識度。
+    identity_constraints: *symbol_identity
+    composition: *symbol_composition
+    forbidden_elements: *symbol_forbidden
+    references: []
+
+  - id: xs-symbol-star-001
+    title: STAR
+    type: X-STARS SYMBOL
+    rarity: R
+    cost: ""
+    rules_text: "Stage Combo 資源：STAR。"
+    ability_type: stage_symbol
+    target_symbol: STAR
+    set: X-STARS DEBUT STAGE
+    card_no: XS01-009
+    art_brief: >-
+      原創 STAR Symbol：飽滿五角星立體徽章，以香檳金、珍珠白核心與虹彩邊緣構成，背後有同心星芒及圓形舞台燈框。背景使用明亮深藍紫漸層、金色追光與星塵粒子，呈現高品質休閒 slot symbol 的勝利爽感、高價值視覺與清楚輪廓。
+    identity_constraints: *symbol_identity
+    composition: *symbol_composition
+    forbidden_elements: *symbol_forbidden
+    references: []
+
+  - id: xs-symbol-wild-001
+    title: WILD
+    type: X-STARS SYMBOL · SPECIAL
+    rarity: SR
+    cost: ""
+    rules_text: "可作為任意 1 種 Symbol，用於完成 Stage Combo。"
+    ability_type: wild_symbol
+    target_symbol: ANY
+    set: X-STARS DEBUT STAGE
+    card_no: XS01-010
+    art_brief: >-
+      原創 WILD Symbol：由 MIC、NOTE、GEM、STAR 四種抽象輪廓光融合成虹彩五芒星核心，外圍以五色極光帶、白金環與舞台燈泡構成。背景使用明亮宇宙紫、虹彩爆發光與受控亮片粒子，呈現全系列最高辨識度、驚喜感與稀有爽感，但不生成文字 WILD。
+    identity_constraints:
+      - WILD 必須是唯一主體，視覺價值明顯高於四種基本 Symbol
+      - 使用原創融合徽章，不引用真實品牌或 X-STARS 角色 identity
+      - 延續系列精品 3D 舞台語言，以完整虹彩光譜表達萬用性
+    composition:
+      - illustration 專為 template 的 654×560（約 7:6）橫向視窗構圖
+      - 單一融合 Symbol 置中，占畫面約 60–70%
+      - 虹彩核心與白金外環完整置於 center-crop-safe region
+      - 四種基礎 Symbol 只以次要抽象輪廓暗示
+    forbidden_elements:
+      - 卡框、任何可讀文字、字母、數字、UI、logo、品牌或 watermark
+      - 人物、手、角色剪影或 X-STARS 成員特徵
+      - 四張獨立 Symbol 卡、雜亂拼貼、低對比或過暗背景
+      - 賭桌、撲克牌、籌碼、輪盤或寫實博彩場景
+    references: []

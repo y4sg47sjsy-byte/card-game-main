@@ -1,0 +1,35 @@
+candidate-01 — 星光主舞台
+Use case: stylized-concept
+Asset type: idol collectible-card illustration only, no card frame
+Input image: the supplied portrait is the sole identity and art-style reference
+Primary request: depict the same adult purple-haired female idol performing a confident high-energy dance pose on a grand concert stage.
+Subject invariants: preserve her recognizable face, violet eyes, very long glossy violet hair with braided crown and side knots, gold diamond earrings and jewelry, elegant mature confidence, slim stylized proportions, and the reference's polished high-end Japanese mobile-game illustration finish.
+Wardrobe: stage-performance variation of her violet, iridescent silver-blue, and gold outfit; cropped jacket and coordinated idol costume, tasteful and non-explicit.
+Composition: horizontal 7:6 art-window composition, three-quarter to full-body hero framing, slightly low camera, character occupies about 65%; face, hair ornaments, both hands, and key costume silhouette safely inside the central crop.
+Scene/backdrop: luminous arena stage, violet spotlights, restrained star-shaped lens flares and distant audience light sticks.
+Lighting/mood: brilliant lavender key light, cool cyan rim light, gold accents; triumphant, charismatic, premium SSR energy.
+Constraints: illustration only; one character; no text, logo, watermark, UI, card border, microphone blocking the face, extra limbs or malformed hands.
+
+candidate-02 — 夢幻安可
+Use case: stylized-concept
+Asset type: idol collectible-card illustration only, no card frame
+Input image: the supplied portrait is the sole identity and art-style reference
+Primary request: depict the same adult purple-haired female idol during a gentle encore, reaching one open hand toward the audience with a warm, composed smile.
+Subject invariants: preserve her recognizable face, violet eyes, very long glossy violet hair with braided crown and side knots, gold diamond earrings and jewelry, elegant mature presence, slim stylized proportions, and the reference's polished high-end Japanese mobile-game illustration finish.
+Wardrobe: elegant layered lavender-and-violet chiffon idol dress with iridescent silver-blue shoulder detail and restrained gold geometric ornaments; tasteful and non-explicit.
+Composition: horizontal 7:6 art-window composition, graceful three-quarter-body pose with flowing hair and skirt, character about 60–65%; face, hair ornaments, reaching hand, and full key silhouette inside the central crop.
+Scene/backdrop: dreamy encore stage with lavender haze, soft petals, sparkling dust, and a sea of blurred violet light sticks.
+Lighting/mood: soft pearl-lavender glow, romantic rim light, intimate and emotionally radiant.
+Constraints: illustration only; one character; no text, logo, watermark, UI, card border, wings, crown, extra limbs or malformed hands.
+
+candidate-03 — 華麗決勝
+Use case: stylized-concept
+Asset type: idol collectible-card illustration only, no card frame
+Input image: the supplied portrait is the sole identity and art-style reference
+Primary request: depict the same adult purple-haired female idol hitting a powerful final dance pose at the climax of a futuristic live show.
+Subject invariants: preserve her recognizable face, violet eyes, very long glossy violet hair with braided crown and side knots, gold diamond earrings and jewelry, elegant mature confidence, slim stylized proportions, and the reference's polished high-end Japanese mobile-game illustration finish.
+Wardrobe: sharp futuristic violet performance suit with an iridescent silver-blue cropped jacket, asymmetric skirt panels, fitted stage boots, and gold diamond hardware; tasteful and non-explicit.
+Composition: horizontal 7:6 art-window composition, dynamic diagonal full-body-to-three-quarter-body pose, slightly low heroic camera, character about 65–70%; face, both hands, hair ornaments, and key costume silhouette remain crop-safe.
+Scene/backdrop: premium cyber concert stage with violet and magenta laser ribbons, crystalline light panels, subtle gold geometric particles.
+Lighting/mood: strong violet-magenta contrast, icy cyan rim highlights, decisive and spectacular finale energy.
+Constraints: illustration only; one character; no text, logo, watermark, UI, card border, weapons, armor, extra limbs or malformed hands.

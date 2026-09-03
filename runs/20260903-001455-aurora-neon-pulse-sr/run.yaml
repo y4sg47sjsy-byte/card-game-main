@@ -1,0 +1,9 @@
+card_id: aurora-neon-pulse-sr
+created_at: "2026-09-03T00:14:55+08:00"
+references:
+  - assets/references/x-stars/final-approved/AURORA.png
+candidates:
+  - candidates/candidate-01.png
+  - candidates/candidate-02.png
+  - candidates/candidate-03.png
+status: awaiting_review

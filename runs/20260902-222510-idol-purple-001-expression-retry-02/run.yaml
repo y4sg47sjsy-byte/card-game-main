@@ -1,0 +1,15 @@
+card_id: idol-purple-001
+working_id_only: true
+retry_of: runs/20260902-221908-idol-purple-001-expression-retry
+revision_scope: facial_expression_with_crop_lock
+created_at: "2026-09-02T22:25:10+08:00"
+references:
+  - /var/folders/84/5dgb61t15834w9ysg1qb_s280000gn/T/codex-clipboard-fab6168f-065f-4922-a9a2-4b9b27cbb2ea.png
+  - runs/20260902-220927-idol-purple-001/candidates/candidate-01.png
+  - runs/20260902-220927-idol-purple-001/candidates/candidate-02.png
+  - runs/20260902-220927-idol-purple-001/candidates/candidate-03.png
+candidates:
+  - candidates/candidate-01.png
+  - candidates/candidate-02.png
+  - candidates/candidate-03.png
+status: awaiting_review

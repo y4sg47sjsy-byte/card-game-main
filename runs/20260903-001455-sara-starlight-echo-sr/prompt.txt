@@ -1,0 +1,14 @@
+Exact prompt record
+
+Common constraints used in every candidate: stylized-concept X-STARS SR collectible-card illustration only; premium Korean game-webtoon character-poster finish; one mature adult character occupying 60–65% of a 654×560 approximately 7:6 horizontal fixed-center-crop art window; complete identity-critical hair, face, both hands, prop and costume silhouette crop-safe. The named final-approved character image is the sole identity authority and final-approved AURORA is the rendering-style authority. Preserve config/x-stars-character-bible.md identity locks and its Required prompt footer. Costume transformation only. No readable text, logo, watermark, UI, card frame, extra or duplicate character, reflected duplicate face, weapon, wings, animal ears, casino imagery, photorealism, heavy black outlines, malformed hands, face-obscuring effects, or unreferenced elements. SR richness, not SSR spectacle. Expression, gaze, hands and body weight must authentically respond to the exact performance moment and the visible demeanor in the final-approved reference, never a generic model pose.
+
+Character/theme invariant: SARA — Starlight Echo. Preserve golden-amber almond eyes, extremely long straight golden-orange hair, heavy blunt fringe, long side locks, slim front section with gold cylindrical tie and gold starburst earring. Midnight-blue, champagne-gold and stardust-sequin idol gown, starburst shoulder ornament, layered tulle and head-worn microphone. Starry dome with paired responding starburst halos.
+
+candidate-01 — Vocal climax
+Both palms open in a controlled symmetrical gesture, shoulders relaxed, eyes lifted into warm spotlight, serene yet emotionally resonant expression.
+
+candidate-02 — Sustained note
+Three-quarter profile, one hand near chest and the other reaching toward the audience, gaze follows reaching hand; restrained heartfelt expression, hair and tulle moving softly.
+
+candidate-03 — Final beat
+One palm raised beneath paired halos and other lowered elegantly, direct calm eye contact, subtle satisfied smile and slightly low camera.

@@ -1,0 +1,23 @@
+candidate-01 — 星光主舞台／征服舞台
+Use case: identity-preserve
+Asset type: expression-focused revision of an idol collectible-card illustration
+Input images: Image 1 is the original character identity reference; Image 2 is the edit target for candidate 01.
+Primary request: change only the facial performance to create strong emotional tension: she is thrilled by the live crowd and certain she owns the stage. Give her intensely focused sparkling violet eyes looking directly at the viewer, slightly lifted and engaged brows, subtly raised cheeks, and a confident open smile with a hint of teeth, as if caught at the peak of a performance. The emotion must read immediately even at card-thumbnail size.
+Constraints: preserve the edit target's exact character identity, facial proportions, hairstyle, costume, jewelry, body, hands, pose, camera, composition, stage, lighting, palette, crop, and illustration style. Keep her attractive, mature, and controlled.
+Avoid: blank model expression, generic closed-mouth smile, anger, mania, exaggerated comedy, shouting mouth, tears, facial redesign, extra limbs, text, logo, watermark, UI, or card frame.
+
+candidate-02 — 夢幻安可／克制感動
+Use case: identity-preserve
+Asset type: expression-focused revision of an idol collectible-card illustration
+Input images: Image 1 is the original character identity reference; Image 2 is the edit target for candidate 02.
+Primary request: change only the facial performance to create intimate emotional tension: at the encore she is deeply moved by the audience but holding herself together. Give her luminous slightly moisture-bright violet eyes, softened inner brows, gently raised cheeks, and a tender imperfect smile that mixes gratitude, relief, and vulnerability. No visible tears running down the face. The emotion must read immediately even at card-thumbnail size.
+Constraints: preserve the edit target's exact character identity, facial proportions, hairstyle, dress, jewelry, body, hands, microphone, pose, camera, composition, audience, petals, lighting, palette, crop, and illustration style. Keep her beautiful, mature, and sincere.
+Avoid: blank model expression, generic beauty smile, crying, sadness, melodrama, exaggerated comedy, open shouting mouth, facial redesign, extra limbs, text, logo, watermark, UI, or card frame.
+
+candidate-03 — 華麗決勝／野心勝利
+Use case: identity-preserve
+Asset type: expression-focused revision of an idol collectible-card illustration
+Input images: Image 1 is the original character identity reference; Image 2 is the edit target for candidate 03.
+Primary request: change only the facial performance to create decisive emotional tension: she locks eyes with the viewer at the final beat, fully determined to win. Give her narrowed, fiercely focused violet eyes, one brow subtly lowered and the other slightly lifted, engaged cheeks, and a sharp asymmetric victory smile with a restrained hint of teeth. Convey ambition, command, and exhilaration without looking villainous. The emotion must read immediately even at card-thumbnail size.
+Constraints: preserve the edit target's exact character identity, facial proportions, hairstyle, costume, jewelry, body, hands, pose, camera, composition, cyber stage, lighting, palette, crop, and illustration style. Keep her elegant and controlled.
+Avoid: blank model expression, generic closed-mouth smile, rage, villain sneer, mania, exaggerated comedy, shouting mouth, facial redesign, extra limbs, text, logo, watermark, UI, or card frame.

@@ -1,0 +1,14 @@
+Exact prompt record
+
+Common constraints used in every candidate: stylized-concept X-STARS SR collectible-card illustration only; premium Korean game-webtoon character-poster finish; one mature adult character occupying 60–65% of a 654×560 approximately 7:6 horizontal fixed-center-crop art window; complete identity-critical hair, face, both hands, prop and costume silhouette crop-safe. The named final-approved character image is the sole identity authority and final-approved AURORA is the rendering-style authority. Preserve config/x-stars-character-bible.md identity locks and its Required prompt footer. Costume transformation only. No readable text, logo, watermark, UI, card frame, extra or duplicate character, reflected duplicate face, weapon, wings, animal ears, casino imagery, photorealism, heavy black outlines, malformed hands, face-obscuring effects, or unreferenced elements. SR richness, not SSR spectacle. Expression, gaze, hands and body weight must authentically respond to the exact performance moment and the visible demeanor in the final-approved reference, never a generic model pose.
+
+Character/theme invariant: TARA — Cosmic Encore. Preserve magenta-violet almond eyes, rose-pink to deep-magenta very long thick waved high ponytail, layered side fringe, curled tendrils and deep plum-magenta newsboy cap. Pearl-white, cosmic-purple and aurora-gradient futuristic idol outfit with meteor sash, galaxy waist ornament and crystal-bright boots. Circular encore stage, cosmic LED dome and five beams converging into a rainbow starburst.
+
+candidate-01 — Center-stage farewell
+One arm raised high toward the upper audience and other hand over heart; bright grateful smile, eyes scanning the crowd, weight settled after the final song.
+
+candidate-02 — Playful farewell turn
+Look back over one shoulder while waving, ponytail and meteor sash following the turn; warm animated smile and buoyant controlled step.
+
+candidate-03 — Rising from final bow
+Torso just rising, one hand over heart and other opening toward audience; touched radiant expression with direct grateful eye contact.

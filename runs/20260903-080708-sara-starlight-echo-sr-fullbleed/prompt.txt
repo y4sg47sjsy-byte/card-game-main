@@ -1,0 +1,5 @@
+candidate-01: SARA 穩定正面直式滿版歌唱特寫，胸上至大腿，一手持麥、一手貼心口，琥珀眼神深情；暖金與深藍舞台光。
+candidate-02: SARA 三分之四直式滿版歌唱特寫，極長金橙髮形成優雅弧線，另一手向觀眾展開；雙重金色星芒。
+candidate-03: SARA 近距離情感高潮直式滿版特寫，柔和卻有壓台感的長音，髮絲以金色邊光分層。
+Shared constraints: 5:7 portrait, final 750x1050, full bleed, safe face/hair/hands, preserve exact final-approved identity, original costume/accessories, one microphone, no frame/text/logo/UI/other person. Premium Korean game-webtoon finish.
+Required footer: The requested character's image under `assets/references/x-stars/final-approved/` is the highest authority for identity, hairstyle, face, anatomy, costume, accessories, proportions, and palette. Preserve all identity-critical traits in `config/x-stars-character-bible.md`; never borrow traits from another X-STARS character. Match `assets/references/x-stars/final-approved/AURORA.png` for line weight, facial maturity, and rendering quality. Camera angle, framing, pose, expression, background, lighting, and environmental effects follow the approved card-specific `art_brief`. No readable text, logo, UI, frame, watermark, extra character, or unreferenced element.

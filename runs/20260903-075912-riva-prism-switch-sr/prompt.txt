@@ -1,0 +1,10 @@
+candidate-01
+RIVA 單人腰上舞台歌唱特寫，延續 v2 副歌舞台；正面爆發式 belt note，紅眼專注、肩線張開，持麥克風並以另一手切出強拍。暖紅玫瑰金主光與紫色輪廓光。保留 final-approved identity、原服裝配件。7:6，無卡框文字或其他人物。
+
+candidate-02
+RIVA 三分之四動勢特寫，俐落轉身令高馬尾飛揚，爽朗強勁的歌唱表情，麥克風靠近嘴側；背景結合 v2 燈海與 Prism Switch 稜鏡折射。保留 final-approved identity、原服裝配件。7:6，無卡框文字或其他人物。
+
+candidate-03
+RIVA 近距離強拍特寫，臉部、上身、持麥手與另一隻戴手套的手清楚，呈現完成精彩轉場後熱烈自信的歌唱笑意。保留 final-approved identity、原服裝配件與暖紅舞台質感。7:6，無文字卡框與額外人物。
+
+Required footer for all candidates: The requested character's image under `assets/references/x-stars/final-approved/` is the highest authority for identity, hairstyle, face, anatomy, costume, accessories, proportions, and palette. Preserve all identity-critical traits in `config/x-stars-character-bible.md`; never borrow traits from another X-STARS character. Match `assets/references/x-stars/final-approved/AURORA.png` for line weight, facial maturity, and rendering quality. Camera angle, framing, pose, expression, background, lighting, and environmental effects follow the approved card-specific `art_brief`. No readable text, logo, UI, frame, watermark, extra character, or unreferenced element.

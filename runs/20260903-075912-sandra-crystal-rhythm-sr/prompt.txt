@@ -1,0 +1,10 @@
+candidate-01
+SANDRA 單人腰上舞台歌唱特寫，延續 v2 副歌舞台；輕快跳步瞬間，藍眼明亮驚喜，持麥克風、另一手邀請觀眾。冷白與冰藍主光、淡紫反射。保留 final-approved identity、原服裝、頭頂太陽眼鏡。7:6，無卡框文字或其他人物。
+
+candidate-02
+SANDRA 三分之四旋身特寫，外套與藍髮產生節奏動勢，唱出明亮副歌、表情活潑自然；背景延續 v2 燈海並加入 Crystal Rhythm 晶體光軌。保留 final-approved identity 與原服裝配件。7:6，無卡框文字或其他人物。
+
+candidate-03
+SANDRA 近距離俏皮演唱特寫，臉、肩、上身、麥克風與靠近臉側的手清楚，眼神閃亮且嘴型真實歌唱。保留 final-approved identity、原服裝與太陽眼鏡。7:6，無文字卡框與額外人物。
+
+Required footer for all candidates: The requested character's image under `assets/references/x-stars/final-approved/` is the highest authority for identity, hairstyle, face, anatomy, costume, accessories, proportions, and palette. Preserve all identity-critical traits in `config/x-stars-character-bible.md`; never borrow traits from another X-STARS character. Match `assets/references/x-stars/final-approved/AURORA.png` for line weight, facial maturity, and rendering quality. Camera angle, framing, pose, expression, background, lighting, and environmental effects follow the approved card-specific `art_brief`. No readable text, logo, UI, frame, watermark, extra character, or unreferenced element.

@@ -1,0 +1,5 @@
+candidate-01: SANDRA 輕快跳步的直式滿版歌唱特寫，胸上至大腿，藍眼明亮、另一手邀請觀眾；冰藍冷白舞台光。
+candidate-02: SANDRA 三分之四旋身直式滿版特寫，外套和藍髮有節奏動勢，唱出明亮副歌；晶體光軌延伸四邊。
+candidate-03: SANDRA 近距離俏皮直式滿版歌唱特寫，頭頂太陽眼鏡、臉側手勢與麥克風清楚。
+Shared constraints: 5:7 portrait, final 750x1050, full bleed, safe face/hair/hands, preserve exact final-approved identity, original costume/accessories, one microphone, no frame/text/logo/UI/other person. Premium Korean game-webtoon finish.
+Required footer: The requested character's image under `assets/references/x-stars/final-approved/` is the highest authority for identity, hairstyle, face, anatomy, costume, accessories, proportions, and palette. Preserve all identity-critical traits in `config/x-stars-character-bible.md`; never borrow traits from another X-STARS character. Match `assets/references/x-stars/final-approved/AURORA.png` for line weight, facial maturity, and rendering quality. Camera angle, framing, pose, expression, background, lighting, and environmental effects follow the approved card-specific `art_brief`. No readable text, logo, UI, frame, watermark, extra character, or unreferenced element.

@@ -1,0 +1,10 @@
+candidate-01
+AURORA 單人胸上至腰部舞台歌唱特寫，正面略低視角，延續核准 v2 群像的副歌高潮、洋紅青藍追光與觀眾光海；自信掌控的高音表情，一手持麥克風、一手向鏡頭伸展。保留 final-approved 全部 identity、原服裝與配件。7:6 橫幅 center-crop-safe，無卡框、文字、logo、其他人物。Premium Korean game-webtoon finish.
+
+candidate-02
+AURORA 單人三分之四側面歌唱特寫，鏡頭捕捉轉身帶動紫色長髮與外套的瞬間；眼神銳利投入、嘴型自然唱出副歌強拍，紫色與銀色材質由 v2 舞台虹彩輪廓光塑形。保留 final-approved identity、原服裝配件。7:6 橫幅安全中央構圖，無卡框文字或其他人物。
+
+candidate-03
+AURORA 單人近距離情緒特寫，臉、肩、上身與持麥手清楚，紫色眼睛迎向觀眾，呈現沉浸又興奮的持續高音；背景抽象化為 v2 舞台的紫粉光束與散景。保留 final-approved identity、原服裝配件。7:6 橫幅，無文字卡框與額外人物。
+
+Required footer for all candidates: The requested character's image under `assets/references/x-stars/final-approved/` is the highest authority for identity, hairstyle, face, anatomy, costume, accessories, proportions, and palette. Preserve all identity-critical traits in `config/x-stars-character-bible.md`; never borrow traits from another X-STARS character. Match `assets/references/x-stars/final-approved/AURORA.png` for line weight, facial maturity, and rendering quality. Camera angle, framing, pose, expression, background, lighting, and environmental effects follow the approved card-specific `art_brief`. No readable text, logo, UI, frame, watermark, extra character, or unreferenced element.

@@ -1,0 +1,10 @@
+candidate-01
+TARA 單人腰上舞台歌唱特寫，延續 v2 副歌舞台；正面略側身、俏皮而溫暖地與觀眾互動，持麥克風、另一手伸向鏡頭。白金主光、紫藍輪廓與虹彩星芒。保留 final-approved identity、原服裝帽子與長粉紅馬尾。7:6，無卡框文字或其他人物。
+
+candidate-02
+TARA 三分之四節奏特寫，肩線與髖部形成輕快對角線，長馬尾掃出弧線，明亮自信地唱出副歌；背景延續 v2 燈海與 Cosmic Encore 五色光。保留 final-approved identity、原服裝配件。7:6，無文字卡框或其他人物。
+
+candidate-03
+TARA 近距離感動演唱特寫，臉、帽子、肩、上身與持麥手清楚，另一手收在胸前，眼神閃亮、笑容轉化為真實歌唱表情。保留 final-approved identity、原服裝配件。7:6，無文字卡框與額外人物。
+
+Required footer for all candidates: The requested character's image under `assets/references/x-stars/final-approved/` is the highest authority for identity, hairstyle, face, anatomy, costume, accessories, proportions, and palette. Preserve all identity-critical traits in `config/x-stars-character-bible.md`; never borrow traits from another X-STARS character. Match `assets/references/x-stars/final-approved/AURORA.png` for line weight, facial maturity, and rendering quality. Camera angle, framing, pose, expression, background, lighting, and environmental effects follow the approved card-specific `art_brief`. No readable text, logo, UI, frame, watermark, extra character, or unreferenced element.

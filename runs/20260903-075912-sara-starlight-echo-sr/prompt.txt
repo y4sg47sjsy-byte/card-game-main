@@ -1,0 +1,10 @@
+candidate-01
+SARA 單人腰上舞台歌唱特寫，延續 v2 副歌舞台；穩定正面姿態、麥克風靠近嘴部、另一手貼近心口，琥珀眼神深情專注。暖金聚光與深藍輪廓光。保留 final-approved identity、原服裝配件與極長金橙髮。7:6，無卡框文字或其他人物。
+
+candidate-02
+SARA 三分之四歌唱特寫，極長金橙髮形成優雅弧線，另一手向觀眾展開，果斷滿足的半笑融入自然歌唱嘴型；v2 燈海結合 Starlight Echo 雙重金色星芒。保留 final-approved identity 與原服裝。7:6，無文字卡框或其他人物。
+
+candidate-03
+SARA 近距離情感高潮特寫，臉、肩、上身和持麥手清楚，目光柔和卻有壓台感，表現共鳴深沉的長音；髮絲以金色邊光分層。保留 final-approved identity、原服裝配件。7:6，無文字卡框與額外人物。
+
+Required footer for all candidates: The requested character's image under `assets/references/x-stars/final-approved/` is the highest authority for identity, hairstyle, face, anatomy, costume, accessories, proportions, and palette. Preserve all identity-critical traits in `config/x-stars-character-bible.md`; never borrow traits from another X-STARS character. Match `assets/references/x-stars/final-approved/AURORA.png` for line weight, facial maturity, and rendering quality. Camera angle, framing, pose, expression, background, lighting, and environmental effects follow the approved card-specific `art_brief`. No readable text, logo, UI, frame, watermark, extra character, or unreferenced element.

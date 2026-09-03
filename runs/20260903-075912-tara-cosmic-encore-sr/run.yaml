@@ -1,0 +1,8 @@
+card_id: tara-cosmic-encore-sr
+created_at: "2026-09-03T07:59:12+08:00"
+references:
+  - assets/generated/x-stars/x-stars-stage-chorus-group-v2.png
+  - assets/references/x-stars/final-approved/TARA.png
+  - assets/references/x-stars/final-approved/AURORA.png
+candidates: [candidate-01.png, candidate-02.png, candidate-03.png]
+status: generating

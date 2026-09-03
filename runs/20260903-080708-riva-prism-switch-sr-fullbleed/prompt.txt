@@ -1,0 +1,5 @@
+candidate-01: RIVA 正面爆發式 belt note 直式滿版特寫，胸上至大腿，肩線張開、另一手切出強拍；暖紅玫瑰金與紫色輪廓光。
+candidate-02: RIVA 三分之四轉身直式滿版特寫，高馬尾飛揚，爽朗強勁地歌唱；v2 燈海結合稜鏡折射。
+candidate-03: RIVA 近距離強拍直式滿版特寫，紅眼專注，戴手套的手與麥克風清楚，熱烈自信歌唱。
+Shared constraints: 5:7 portrait, final 750x1050, full bleed, safe face/hair/hands, preserve exact final-approved identity, original costume/accessories, one microphone, no frame/text/logo/UI/other person. Premium Korean game-webtoon finish.
+Required footer: The requested character's image under `assets/references/x-stars/final-approved/` is the highest authority for identity, hairstyle, face, anatomy, costume, accessories, proportions, and palette. Preserve all identity-critical traits in `config/x-stars-character-bible.md`; never borrow traits from another X-STARS character. Match `assets/references/x-stars/final-approved/AURORA.png` for line weight, facial maturity, and rendering quality. Camera angle, framing, pose, expression, background, lighting, and environmental effects follow the approved card-specific `art_brief`. No readable text, logo, UI, frame, watermark, extra character, or unreferenced element.

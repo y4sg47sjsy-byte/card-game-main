@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>WANIN Card Archive</title>
+    <meta
+      name="description"
+      content="WANIN IP card archive with X-STARS character profiles, card records, and missing-content checklist."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="app-header">
+      <div>
+        <p class="eyebrow">WANIN IP</p>
+        <h1>Card Archive</h1>
+      </div>
+      <nav class="top-nav" aria-label="主要導覽">
+        <a href="#cards">卡牌</a>
+        <a href="#world">世界觀</a>
+        <a href="#characters">角色</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="archive-shell" id="cards" aria-labelledby="cards-title">
+        <div class="archive-toolbar">
+          <div>
+            <p class="section-kicker">Card Database</p>
+            <h2 id="cards-title">卡牌資料庫</h2>
+          </div>
+          <label class="search-field">
+            <span>搜尋</span>
+            <input id="searchInput" type="search" placeholder="卡名、角色、標籤" autocomplete="off" />
+          </label>
+        </div>
+
+        <div class="filters" aria-label="卡牌篩選">
+          <label>
+            系列
+            <select id="seriesFilter"></select>
+          </label>
+          <label>
+            類型
+            <select id="typeFilter"></select>
+          </label>
+          <label>
+            稀有度
+            <select id="rarityFilter"></select>
+          </label>
+          <button class="ghost-button" id="clearFilters" type="button">清除篩選</button>
+        </div>
+
+        <div class="archive-meta">
+          <span id="resultCount"></span>
+          <span>缺卡面會以替代素材標示，正式卡圖補上後會自動切換。</span>
+        </div>
+
+        <div class="card-grid" id="cardGrid"></div>
+      </section>
+
+      <section class="world-panel" id="world" aria-labelledby="world-title">
+        <div>
+          <p class="section-kicker">World Guide</p>
+          <h2 id="world-title">世界觀</h2>
+          <p>
+            目前網站只收錄已確認的 X-STARS 角色設定。WANIN 一般世界觀、卡牌規則與系列包裝仍保留為待補內容，避免把尚未核定的設定誤寫成正式 canon。
+          </p>
+        </div>
+        <div class="world-list" id="worldList"></div>
+      </section>
+
+      <section class="characters-section" id="characters" aria-labelledby="characters-title">
+        <div class="section-heading">
+          <div>
+            <p class="section-kicker">Character Index</p>
+            <h2 id="characters-title">X-STARS 角色圖鑑</h2>
+          </div>
+          <p>角色圖鑑使用 final-approved 圖作為身份依據，卡牌資料之後可逐張掛回角色頁。</p>
+        </div>
+        <div class="character-grid" id="characterGrid"></div>
+      </section>
+
+    </main>
+
+    <dialog class="detail-dialog" id="detailDialog">
+      <button class="close-button" id="closeDetail" type="button" aria-label="關閉">×</button>
+      <div id="detailContent"></div>
+    </dialog>
+
+    <footer>
+      <span>WANIN Card Archive</span>
+      <span>資料狀態：draft / placeholder-ready</span>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>

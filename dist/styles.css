@@ -644,7 +644,25 @@ main {
   display: grid;
   width: 100%;
   padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
   text-align: left;
+}
+
+.card-button:hover,
+.card-tile:hover {
+  box-shadow: none;
+}
+
+.card-tile:hover {
+  transform: none;
+}
+
+.card-tile {
+  border: 0;
+  border-radius: 0;
+  background: transparent;
 }
 
 .card-art {
@@ -656,8 +674,8 @@ main {
   background:
     radial-gradient(circle at 50% 14%, rgba(101, 212, 235, 0.12), transparent 28%),
     #050408;
-  border-bottom: 1px solid var(--line);
-  border-radius: 20px 20px 0 0;
+  border-bottom: 0;
+  border-radius: 0;
 }
 
 .card-art img,
@@ -672,6 +690,11 @@ main {
   align-self: center;
   object-fit: cover;
   object-position: center;
+  transition: transform 220ms ease;
+}
+
+.card-tile:hover .card-art img {
+  transform: scale(1.05);
 }
 
 .placeholder-art {
@@ -690,20 +713,6 @@ main {
   font-weight: 800;
 }
 
-.status-pill {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  padding: 6px 9px;
-  border-radius: 999px;
-  background: rgba(245, 243, 255, 0.12);
-  color: #fff;
-  border: 1px solid rgba(245, 243, 255, 0.22);
-  box-shadow: var(--neon-violet);
-  font-size: 0.76rem;
-  font-weight: 800;
-}
-
 .card-info,
 .character-body,
 .world-card,
@@ -714,6 +723,19 @@ main {
 .card-info h3,
 .character-body h3 {
   margin-bottom: 8px;
+}
+
+.card-number,
+.series-alias {
+  margin: -2px 0 10px;
+  color: var(--muted);
+  font-size: 0.82rem;
+  letter-spacing: 0.04em;
+}
+
+.card-info strong,
+.detail-copy strong {
+  color: var(--ink);
 }
 
 .meta-row {
@@ -800,7 +822,7 @@ li {
 .detail-dialog {
   width: min(880px, calc(100% - 28px));
   max-height: calc(100vh - 40px);
-  padding: 0;
+  padding: clamp(18px, 3vw, 28px);
   border: 1px solid var(--line);
   border-radius: 8px;
   background: var(--panel);
@@ -859,6 +881,7 @@ li {
 .detail-media img {
   width: 100%;
   height: 100%;
+  border-radius: 0;
   object-fit: cover;
   object-position: center;
 }
@@ -923,6 +946,7 @@ footer {
 
   .detail-layout {
     grid-template-columns: 1fr;
+    padding-top: 44px;
   }
 
   .detail-media {
@@ -936,6 +960,11 @@ footer {
 }
 
 @media (max-width: 520px) {
+  .detail-dialog {
+    width: calc(100% - 20px);
+    padding: 14px;
+  }
+
   main {
     width: min(100% - 20px, 1240px);
     margin-top: 12px;

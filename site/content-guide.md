@@ -8,15 +8,28 @@ This file is the handoff checklist for replacing placeholders with production co
 - General WANIN art notes: `config/art-bible.md`
 - Website records: `site/app.js`
 
-## Placeholder cards to complete
+## Character card data
 
-| Card ID | Character | Missing fields |
-| --- | --- | --- |
-| `xstars-aurora-001` | AURORA | final card face, cost, rules text, product/set |
-| `xstars-riva-001` | RIVA | final card face, cost, rules text, product/set |
-| `xstars-sandra-001` | SANDRA | final card face, cost, rules text, product/set |
-| `xstars-sara-001` | SARA | final card face, cost, rules text, product/set |
-| `xstars-tara-001` | TARA | final card face, cost, rules text, product/set |
+`site/app.js` contains the 40 approved proposal records from `卡面資訊.md`: card number,
+character, English card title, cost, skill name, rules text, rarity, display series, and
+original series key. Production card faces and product inclusion remain pending.
+
+Display series aliases preserve the original series as an internal key:
+
+| Original series | Display name |
+| --- | --- |
+| 練習生 | 初星未央 |
+| 私服 | 閒光拾影 |
+| SCHOOL DAY | 青衿時光 |
+| 幕後彩排 | 簾後序曲 |
+| 夏日泳裝 | 晴海漣光 |
+| 春日花海 | 春華綺夢 |
+| 經典舞台 | 流光名場 |
+| 專屬舞服 | 華裳星裁 |
+
+All 40 website card faces are unmodified 750×1050 copies of the completed card images
+from `output/card/`, renamed by card number under `site/assets/cards/`. The source files
+remain untouched.
 
 ## Recommended card image path
 
@@ -42,8 +55,6 @@ rulesText: "正式卡牌能力文字",
 
 ## Website fields to fill later
 
-- `cost`
-- `rulesText`
 - `worldNote`
 - `set`
 - `cardNumber`

@@ -51,88 +51,85 @@ const characters = [
   },
 ];
 
-const cards = [
-  {
-    id: "xstars-aurora-001",
-    title: "AURORA",
-    series: "X-STARS",
-    type: "Character",
-    rarity: "SSR",
-    characterId: "aurora",
-    status: "placeholder",
-    image: "assets/cards/r-card-placeholder.png",
-    arMarker: "WANIN-XSTARS-AURORA-001",
-    arAsset: "spotlight-profile",
-    tags: ["X-STARS", "紫", "風格基準", "待補卡面"],
-    rulesText: "待補正式卡牌能力。",
-    worldNote: "X-STARS final-approved 角色。此卡先以目前卡面設計圖作為替代素材。",
-    missing: ["正式卡面", "費用", "規則文字", "收錄商品"],
-  },
-  {
-    id: "xstars-riva-001",
-    title: "RIVA",
-    series: "X-STARS",
-    type: "Character",
-    rarity: "SR",
-    characterId: "riva",
-    status: "placeholder",
-    image: "assets/cards/r-card-placeholder.png",
-    arMarker: "WANIN-XSTARS-RIVA-001",
-    arAsset: "spotlight-profile",
-    tags: ["X-STARS", "紅橙", "可靠", "待補卡面"],
-    rulesText: "待補正式卡牌能力。",
-    worldNote: "X-STARS final-approved 角色。此卡先以目前卡面設計圖作為替代素材。",
-    missing: ["正式卡面", "費用", "規則文字", "收錄商品"],
-  },
-  {
-    id: "xstars-sandra-001",
-    title: "SANDRA",
-    series: "X-STARS",
-    type: "Character",
-    rarity: "SR",
-    characterId: "sandra",
-    status: "placeholder",
-    image: "assets/cards/r-card-placeholder.png",
-    arMarker: "WANIN-XSTARS-SANDRA-001",
-    arAsset: "spotlight-profile",
-    tags: ["X-STARS", "藍", "開朗", "待補卡面"],
-    rulesText: "待補正式卡牌能力。",
-    worldNote: "X-STARS final-approved 角色。此卡先以目前卡面設計圖作為替代素材。",
-    missing: ["正式卡面", "費用", "規則文字", "收錄商品"],
-  },
-  {
-    id: "xstars-sara-001",
-    title: "SARA",
-    series: "X-STARS",
-    type: "Character",
-    rarity: "SR",
-    characterId: "sara",
-    status: "placeholder",
-    image: "assets/cards/r-card-placeholder.png",
-    arMarker: "WANIN-XSTARS-SARA-001",
-    arAsset: "spotlight-profile",
-    tags: ["X-STARS", "金橘", "果斷", "待補卡面"],
-    rulesText: "待補正式卡牌能力。",
-    worldNote: "X-STARS final-approved 角色。此卡先以目前卡面設計圖作為替代素材。",
-    missing: ["正式卡面", "費用", "規則文字", "收錄商品"],
-  },
-  {
-    id: "xstars-tara-001",
-    title: "TARA",
-    series: "X-STARS",
-    type: "Character",
-    rarity: "SR",
-    characterId: "tara",
-    status: "placeholder",
-    image: "assets/cards/r-card-placeholder.png",
-    arMarker: "WANIN-XSTARS-TARA-001",
-    arAsset: "spotlight-profile",
-    tags: ["X-STARS", "粉紅", "協調", "待補卡面"],
-    rulesText: "待補正式卡牌能力。",
-    worldNote: "X-STARS final-approved 角色。此卡先以目前卡面設計圖作為替代素材。",
-    missing: ["正式卡面", "費用", "規則文字", "收錄商品"],
-  },
+const seriesNames = {
+  "練習生": "初星未央",
+  "私服": "閒光拾影",
+  "SCHOOL DAY": "青衿時光",
+  "幕後彩排": "簾後序曲",
+  "夏日泳裝": "晴海漣光",
+  "春日花海": "春華綺夢",
+  "經典舞台": "流光名場",
+  "專屬舞服": "華裳星裁",
+};
+
+// card number, character, English title, cost, skill, rules, rarity, original series
+const cardRows = [
+  ["XS-R01", "AURORA", "FIRST CUE", 2, "紫影定拍", "登場時，取得 1 個 MIC Symbol。", "R", "練習生"],
+  ["XS-R02", "RIVA", "STEP CHANGE", 2, "赤焰踏拍", "每回合 1 次：將你的 1 個 MIC Symbol 轉換為 NOTE Symbol。", "R", "練習生"],
+  ["XS-R03", "SANDRA", "COUNT IN", 2, "藍律起式", "登場時，取得 1 個 NOTE Symbol。", "R", "練習生"],
+  ["XS-R04", "SARA", "STAR MARK", 2, "金弦定姿", "每回合你首次取得 STAR Symbol 時，獲得 1 STAR POINT。", "R", "練習生"],
+  ["XS-R05", "TARA", "LUCKY ENTRY", 2, "緋光隨步", "你完成含 WILD 的 Stage Combo 時，獲得 1 STAR POINT。", "R", "練習生"],
+  ["XS-R06", "AURORA", "DAY OFF FOCUS", 2, "午後閱章", "登場時，查看 Symbol 牌庫頂 2 張，取得其中 1 張，其餘置於牌庫底。", "R", "私服"],
+  ["XS-R07", "RIVA", "QUICK CHANGE", 2, "晨風疾行", "每回合 1 次：將你的 1 個 NOTE Symbol 轉換為 GEM Symbol。", "R", "私服"],
+  ["XS-R08", "SANDRA", "STREET BEAT", 2, "晴日小憩", "你取得 NOTE Symbol 時，可查看 Symbol 牌庫頂 1 張。", "R", "私服"],
+  ["XS-R09", "SARA", "SUNNY FIND", 2, "暖陽相伴", "登場時，若你沒有 STAR Symbol，取得 1 個 STAR Symbol。", "R", "私服"],
+  ["XS-R10", "TARA", "CASUAL WISH", 2, "花徑漫步", "每回合 1 次：你的 1 個 Symbol 本回合可當作 WILD。", "R", "私服"],
+  ["XS-R16", "AURORA", "HALLWAY CUE", 2, "廊間點名", "登場時，宣告 1 種非 WILD Symbol；查看 Symbol 牌庫頂 3 張，可取得其中 1 張該種 Symbol，其餘置於牌庫底。", "R", "SCHOOL DAY"],
+  ["XS-R17", "RIVA", "STUDY SHIFT", 2, "課間換題", "每回合 1 次：將你的 1 個 MIC Symbol 轉換為 NOTE Symbol。", "R", "SCHOOL DAY"],
+  ["XS-R18", "SANDRA", "AFTER CLASS NOTE", 2, "放學鈴音", "你取得 NOTE Symbol 後，每回合 1 次：查看 Symbol 牌庫頂 2 張，可取得其中 1 張 NOTE Symbol，其餘置於牌庫底。", "R", "SCHOOL DAY"],
+  ["XS-R19", "SARA", "LIBRARY STAR", 2, "書頁星標", "每回合你首次取得 STAR Symbol 時，獲得 1 STAR POINT。", "R", "SCHOOL DAY"],
+  ["XS-R20", "TARA", "LUCKY HOMEROOM", 2, "校門好運", "每回合 1 次：你完成 Stage Combo 時，可將其中 1 個 Symbol 當作 WILD。", "R", "SCHOOL DAY"],
+  ["XS-R11", "AURORA", "CUE CHECK", 3, "耳返點名", "登場時，宣告 1 種 Symbol；查看牌庫頂 3 張，取得其中 1 張該種 Symbol，其餘置於牌庫底。", "SR", "幕後彩排"],
+  ["XS-R12", "RIVA", "TEMPO RESET", 3, "鏡前變奏", "每回合 1 次：將你的 1 個 GEM Symbol 轉換為任意非 WILD Symbol。", "SR", "幕後彩排"],
+  ["XS-R13", "SANDRA", "SOUND CHECK", 3, "藍調試音", "你取得 NOTE Symbol 後，每回合 1 次：查看牌庫頂 2 張，可取得其中 1 張 NOTE Symbol，其餘置於牌庫底。", "SR", "幕後彩排"],
+  ["XS-R14", "SARA", "LIGHT TEST", 3, "追光定妝", "你完成含 STAR 的 Stage Combo 時，獲得 1 STAR POINT。", "SR", "幕後彩排"],
+  ["XS-R15", "TARA", "WILD REHEARSAL", 3, "候場幸運符", "登場時，取得 1 個 WILD Symbol；本回合不能再完成 Stage Combo。", "SR", "幕後彩排"],
+  ["XS-SR01", "AURORA", "SPLASH TARGET", 3, "潮汐尋珠", "登場時，宣告 1 種非 WILD Symbol；從牌庫頂依序公開，直到公開該種 Symbol。取得該張卡，其餘洗回牌庫。", "R", "夏日泳裝"],
+  ["XS-SR02", "RIVA", "TIDAL SWITCH", 3, "浪尖變奏", "每回合 1 次：將你的 1 個 Symbol 轉換為任意非 WILD Symbol。", "R", "夏日泳裝"],
+  ["XS-SR03", "SANDRA", "SUMMER RHYTHM", 3, "海風和聲", "你取得 NOTE Symbol 後，每回合 1 次：額外取得牌庫頂 1 張 Symbol。", "R", "夏日泳裝"],
+  ["XS-SR04", "SARA", "SUNLIT STAR", 3, "日輪映星", "你取得 STAR Symbol 時，每回合 1 次：額外取得 1 個 STAR Symbol。", "R", "夏日泳裝"],
+  ["XS-SR05", "TARA", "POOLSIDE WILD", 3, "浪花許願", "你完成含 WILD 的 Stage Combo 時，額外獲得 1 STAR POINT，並可查看牌庫頂 1 張。", "R", "夏日泳裝"],
+  ["XS-SR06", "AURORA", "BLOOMING FOCUS", 3, "薰風擇花", "每回合 1 次：查看牌庫頂 4 張，取得其中 1 張，其餘以任意順序置於牌庫底。", "SR", "春日花海"],
+  ["XS-SR07", "RIVA", "PETAL SHIFT", 3, "花瓣染奏", "每回合 1 次：將你的至多 2 個同種 Symbol 轉換為另 1 種相同的非 WILD Symbol。", "SR", "春日花海"],
+  ["XS-SR08", "SANDRA", "FLORAL TEMPO", 3, "藍鈴和鳴", "你完成含 NOTE 的 Stage Combo 後，每回合 1 次：額外取得牌庫頂 1 張 Symbol。", "SR", "春日花海"],
+  ["XS-SR09", "SARA", "STAR IN BLOOM", 3, "金盞映星", "你完成含 STAR 的 Stage Combo 時，額外獲得 2 STAR POINT。", "SR", "春日花海"],
+  ["XS-SR10", "TARA", "LUCK IN BLOOM", 3, "桃霞幸運", "每回合 1 次：你完成 Stage Combo 時，可將其中 1 個 Symbol 當作 WILD。", "SR", "春日花海"],
+  ["XS-SSR01", "AURORA", "NEON PULSE", 4, "紫電開唱", "登場時，取得 1 個 MIC Symbol，再查看牌庫頂 3 張，可取得其中 1 張 MIC Symbol，其餘置於牌庫底。", "SSR", "經典舞台"],
+  ["XS-SSR02", "RIVA", "PRISM SWITCH", 4, "赤焰轉調", "每回合 1 次：將你的 1 個 NOTE Symbol 轉換為 GEM Symbol；若因此完成 Stage Combo，獲得 1 STAR POINT。", "SSR", "經典舞台"],
+  ["XS-SSR03", "SANDRA", "CRYSTAL RHYTHM", 4, "藍晶和聲", "登場時，取得 1 個 NOTE Symbol。你完成含 NOTE 的 Stage Combo 後，額外取得牌庫頂 1 張 Symbol。", "SSR", "經典舞台"],
+  ["XS-SSR04", "SARA", "STARLIGHT ECHO", 4, "金曜回聲", "你取得 STAR Symbol 時，每回合 1 次：額外取得 1 個 STAR Symbol，並獲得 1 STAR POINT。", "SSR", "經典舞台"],
+  ["XS-SSR05", "TARA", "COSMIC ENCORE", 4, "星穹安可", "你完成含 WILD 的 Stage Combo 時，額外獲得 2 STAR POINT。每回合最多觸發 1 次。", "SSR", "經典舞台"],
+  ["XS-SSR06", "AURORA", "PERFECT SIGNAL", 5, "紫晶定標", "登場時，宣告 1 種非 WILD Symbol；從 Symbol 牌庫搜尋 1 張該種 Symbol，展示後取得，然後洗牌。", "SSR", "專屬舞服"],
+  ["XS-SSR07", "RIVA", "SIGNATURE SHIFT", 5, "晶紗變奏", "每回合 1 次：將你的至多 2 個 Symbol 各自轉換為任意非 WILD Symbol。", "SSR", "專屬舞服"],
+  ["XS-SSR08", "SANDRA", "PERFECT TEMPO", 5, "藍鑽連拍", "你取得 NOTE Symbol 後，每回合 1 次：額外取得牌庫頂 2 張 Symbol，然後將手上 1 張 Symbol 置於牌庫底。", "SSR", "專屬舞服"],
+  ["XS-SSR09", "SARA", "CROWNED STAR", 5, "星冠綻芒", "你完成含 STAR 的 Stage Combo 時，額外獲得 2 STAR POINT；若該 Combo 含 2 個以上 STAR，改為 3 STAR POINT。", "SSR", "專屬舞服"],
+  ["XS-SSR10", "TARA", "FORTUNE FINALE", 5, "星羅終曲", "每回合 1 次：你完成 Stage Combo 時，可將其中至多 2 個 Symbol 當作 WILD；若如此做，額外獲得 2 STAR POINT。", "SSR", "專屬舞服"],
 ];
+
+const cardImages = Object.fromEntries(
+  cardRows.map(([cardNumber]) => [cardNumber, `assets/cards/${cardNumber.toLowerCase()}.png`]),
+);
+
+const cards = cardRows.map(([cardNumber, character, title, cost, skillName, rulesText, rarity, originalSeries]) => ({
+  id: cardNumber.toLowerCase(),
+  cardNumber,
+  title,
+  cost,
+  skillName,
+  rulesText,
+  rarity,
+  originalSeries,
+  series: seriesNames[originalSeries],
+  type: "Character",
+  characterId: character.toLowerCase(),
+  status: "ready",
+  image: cardImages[cardNumber],
+  arMarker: `WANIN-${cardNumber}`,
+  arAsset: "spotlight-profile",
+  tags: ["X-STARS", character, seriesNames[originalSeries], originalSeries, skillName],
+  worldNote: `${seriesNames[originalSeries]}（原系列：${originalSeries}）角色卡。卡牌資料已同步，正式卡面圖片待補。`,
+  missing: ["正式卡面", "收錄商品"],
+}));
 
 const worldEntries = [
   {
@@ -196,7 +193,7 @@ function renderCardArt(card) {
   if (!src) {
     return `<div class="placeholder-art">CARD ART<br />待補</div>`;
   }
-  return `<img src="${src}" alt="${card.title} 替代素材" loading="lazy" />`;
+  return `<img src="${src}" alt="${card.title} 完整卡面" loading="lazy" />`;
 }
 
 function cardMatches(card) {
@@ -207,6 +204,10 @@ function cardMatches(card) {
     card.series,
     card.type,
     card.rarity,
+    card.cardNumber,
+    card.skillName,
+    card.rulesText,
+    card.originalSeries,
     character?.name,
     character?.summary,
     ...card.tags,
@@ -233,16 +234,16 @@ function renderCards() {
           <button class="card-button" type="button" data-card-id="${card.id}">
             <div class="card-art">
               ${renderCardArt(card)}
-              <span class="status-pill">${card.status === "ready" ? "READY" : "PLACEHOLDER"}</span>
             </div>
             <div class="card-info">
               <h3>${card.title}</h3>
+              <p class="card-number">${card.cardNumber} · ${character?.name || "X-STARS"}</p>
               <div class="meta-row">
                 <span class="chip">${card.rarity}</span>
-                <span class="chip">${card.type}</span>
+                <span class="chip">費用 ${card.cost}</span>
                 <span class="chip">${card.series}</span>
               </div>
-              <p>${character?.summary || card.worldNote}</p>
+              <p><strong>${card.skillName}</strong>｜${card.rulesText}</p>
             </div>
           </button>
         </article>
@@ -376,15 +377,17 @@ function openDetail(cardId) {
     <div class="detail-layout">
       <div class="detail-media">${renderCardArt(card)}</div>
       <div class="detail-copy">
-        <p class="section-kicker">${card.id}</p>
+        <p class="section-kicker">${card.cardNumber} · ${character?.name || "X-STARS"}</p>
         <h2>${card.title}</h2>
         <div class="meta-row">
           <span class="chip">${card.series}</span>
           <span class="chip">${card.type}</span>
           <span class="chip">${card.rarity}</span>
-          <span class="chip">${card.status}</span>
+          <span class="chip">費用 ${card.cost}</span>
         </div>
+        <p class="series-alias">原系列：${card.originalSeries}</p>
         <h3>卡牌內容</h3>
+        <p><strong>${card.skillName}</strong></p>
         <p>${card.rulesText}</p>
         <h3>世界觀註記</h3>
         <p>${card.worldNote}</p>

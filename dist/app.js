@@ -127,8 +127,8 @@ const cards = cardRows.map(([cardNumber, character, title, cost, skillName, rule
   arMarker: `WANIN-${cardNumber}`,
   arAsset: "spotlight-profile",
   tags: ["X-STARS", character, seriesNames[originalSeries], originalSeries, skillName],
-  worldNote: `${seriesNames[originalSeries]}（原系列：${originalSeries}）角色卡。卡牌資料已同步，正式卡面圖片待補。`,
-  missing: ["正式卡面", "收錄商品"],
+  worldNote: `${seriesNames[originalSeries]}（原系列：${originalSeries}）角色卡。卡牌資料與正式卡面均已同步。`,
+  missing: ["收錄商品"],
 }));
 
 const worldEntries = [

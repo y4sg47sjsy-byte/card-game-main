@@ -75,6 +75,48 @@
         <div class="card-grid" id="cardGrid"></div>
       </section>
 
+      <section class="ar-lab" id="ar-lab" aria-labelledby="ar-title">
+        <div class="section-heading">
+          <div>
+            <p class="section-kicker">AR Feasibility</p>
+            <h2 id="ar-title">AR 卡牌工具</h2>
+          </div>
+          <p>選擇卡牌後啟動相機，或使用模擬辨識預覽角色覆蓋資訊。</p>
+        </div>
+
+        <div class="ar-workbench">
+          <div class="ar-viewer" aria-label="AR 相機預覽">
+            <video id="arCamera" playsinline muted></video>
+            <div class="ar-camera-fallback" id="arFallback">
+              <strong>相機尚未啟動</strong>
+              <span>可先用預覽模式檢查 AR 覆蓋層；實機相機需透過 HTTPS 開啟。</span>
+            </div>
+            <div class="scan-frame" aria-hidden="true">
+              <span></span><span></span><span></span><span></span>
+            </div>
+            <div class="ar-overlay" id="arOverlay"></div>
+          </div>
+
+          <div class="ar-control-panel">
+            <label>
+              測試卡牌
+              <select id="arCardSelect"></select>
+            </label>
+            <div class="ar-actions">
+              <button class="primary-button" id="startAr" type="button">啟動相機</button>
+              <button class="ghost-button" id="simulateScan" type="button">模擬辨識</button>
+              <button class="ghost-button" id="stopAr" type="button">停止</button>
+            </div>
+            <div class="ar-status" id="arStatus" role="status">待機中：請選擇一張卡並啟動相機或模擬辨識。</div>
+            <ul class="ar-checklist">
+              <li>目前階段：WebAR feasibility prototype。</li>
+              <li>辨識策略：以卡牌 ID、QR 或 marker 綁定資料，後續可替換為圖像辨識。</li>
+              <li>模擬辨識可在未開啟相機時直接檢查角色覆蓋層。</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
     </main>
 
     <dialog class="detail-dialog" id="detailDialog">

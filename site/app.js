@@ -435,12 +435,22 @@ function bindEvents() {
     if (button) openDetail(button.dataset.cardId);
   });
   closeDetail.addEventListener("click", () => detailDialog.close());
+  startAr.addEventListener("click", startCamera);
+  simulateScan.addEventListener("click", () => {
+    renderArOverlay(selectedArCard(), arStream ? "camera" : "preview");
+  });
+  stopAr.addEventListener("click", stopCamera);
+  arCardSelect.addEventListener("change", () => {
+    clearArOverlay();
+    setArStatus(`已選擇 ${selectedArCard().title}，等待掃描。`);
+  });
 }
 
 function init() {
   fillSelect(seriesFilter, uniqueOptions("series"));
   fillSelect(typeFilter, uniqueOptions("type"));
   fillSelect(rarityFilter, uniqueOptions("rarity"));
+  fillArCardSelect();
   renderCards();
   bindEvents();
 }

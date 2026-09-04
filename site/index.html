@@ -3,24 +3,23 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>WANIN Card Archive</title>
+    <title>卡牌介紹｜X-STARS</title>
     <meta
       name="description"
-      content="WANIN X-STARS 角色卡資料庫，收錄 40 張角色卡的卡號、費用、技能與規則文字。"
+      content="X-STARS 卡牌介紹，提供 40 張角色卡的搜尋、篩選與卡面檢視功能。"
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header class="app-header">
-      <a class="brand-lockup" href="#" aria-label="X-STARS Card Archive 首頁">
+      <a class="brand-lockup" href="index.html" aria-label="X-STARS 首頁">
         <img src="assets/logo/stars-logo-transparent.png" alt="X-STARS" />
         <span>Card Archive</span>
       </a>
       <nav class="top-nav" aria-label="主要導覽">
-        <a href="#cards">卡牌</a>
-        <a href="#ar-lab">AR</a>
-        <a href="#world">世界觀</a>
-        <a href="#characters">角色</a>
+        <a class="is-active" href="index.html" aria-current="page">卡牌介紹</a>
+        <a href="business.html">商業價值</a>
+        <a href="process.html">設計流程</a>
       </nav>
     </header>
 
@@ -33,8 +32,8 @@
       <div class="hero-shade"></div>
       <div class="hero-copy">
         <p class="eyebrow">X-STARS DEBUT STAGE</p>
-        <h2 id="hero-title">SHINE TOGETHER, BECOME THE STARS</h2>
-        <p>收錄 40 張 X-STARS 角色卡的系列、費用、技能與規則資料。</p>
+        <h1 id="hero-title">SHINE TOGETHER, BECOME THE STARS</h1>
+        <p>搜尋、篩選並查看 40 張 X-STARS 角色卡的完整卡面與能力資料。</p>
         <a class="hero-link" href="#cards">查看卡牌</a>
       </div>
     </section>
@@ -76,75 +75,6 @@
         <div class="card-grid" id="cardGrid"></div>
       </section>
 
-      <section class="ar-lab" id="ar-lab" aria-labelledby="ar-title">
-        <div class="section-heading">
-          <div>
-            <p class="section-kicker">AR Feasibility</p>
-            <h2 id="ar-title">AR 卡牌可行性實作</h2>
-          </div>
-          <p>
-            使用瀏覽器相機與現有卡牌資料建立最小 WebAR 原型，先驗證掃描入口、辨識流程與角色覆蓋層。
-          </p>
-        </div>
-
-        <div class="ar-workbench">
-          <div class="ar-viewer" aria-label="AR 相機預覽">
-            <video id="arCamera" playsinline muted></video>
-            <div class="ar-camera-fallback" id="arFallback">
-              <strong>相機尚未啟動</strong>
-              <span>可用預覽模式檢查 AR 覆蓋層，手機請使用 HTTPS 或 localhost 開啟相機。</span>
-            </div>
-            <div class="scan-frame" aria-hidden="true">
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
-            <div class="ar-overlay" id="arOverlay"></div>
-          </div>
-
-          <div class="ar-control-panel">
-            <label>
-              測試卡牌
-              <select id="arCardSelect"></select>
-            </label>
-            <div class="ar-actions">
-              <button class="primary-button" id="startAr" type="button">啟動相機</button>
-              <button class="ghost-button" id="simulateScan" type="button">模擬辨識</button>
-              <button class="ghost-button" id="stopAr" type="button">停止</button>
-            </div>
-            <div class="ar-status" id="arStatus" role="status">待機中：請選擇一張卡並啟動相機或模擬辨識。</div>
-            <ul class="ar-checklist">
-              <li>目前階段：WebAR feasibility prototype。</li>
-              <li>辨識策略：先以卡牌 ID / QR / marker 綁定資料，後續可替換成圖像辨識 SDK。</li>
-              <li>部署需求：實機相機需 HTTPS；localhost 可供桌面測試。</li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
-      <section class="world-panel" id="world" aria-labelledby="world-title">
-        <div>
-          <p class="section-kicker">World Guide</p>
-          <h2 id="world-title">世界觀</h2>
-          <p>
-            目前網站只收錄已確認的 X-STARS 角色設定。WANIN 一般世界觀、卡牌規則與系列包裝仍保留為待補內容，避免把尚未核定的設定誤寫成正式 canon。
-          </p>
-        </div>
-        <div class="world-list" id="worldList"></div>
-      </section>
-
-      <section class="characters-section" id="characters" aria-labelledby="characters-title">
-        <div class="section-heading">
-          <div>
-            <p class="section-kicker">Character Index</p>
-            <h2 id="characters-title">X-STARS 角色圖鑑</h2>
-          </div>
-          <p>角色圖鑑使用 final-approved 圖作為身份依據，卡牌資料之後可逐張掛回角色頁。</p>
-        </div>
-        <div class="character-grid" id="characterGrid"></div>
-      </section>
-
     </main>
 
     <dialog class="detail-dialog" id="detailDialog">
@@ -153,8 +83,8 @@
     </dialog>
 
     <footer>
-      <span>WANIN Card Archive</span>
-      <span>資料狀態：40 張角色卡資料已同步</span>
+      <span>X-STARS</span>
+      <span>SHINE TOGETHER, BECOME THE STARS</span>
     </footer>
 
     <script src="app.js"></script>

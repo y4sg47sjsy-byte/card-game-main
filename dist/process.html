@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>設計流程｜X-STARS</title>
+    <meta name="description" content="X-STARS 卡牌從需求定義、AI 候選產生、人工選稿到定稿發布的完整設計流程。" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="app-header">
+      <a class="brand-lockup" href="index.html" aria-label="X-STARS 首頁">
+        <img src="assets/logo/stars-logo-transparent.png" alt="X-STARS" />
+        <span>Card Archive</span>
+      </a>
+      <nav class="top-nav" aria-label="主要導覽">
+        <a href="index.html">卡牌介紹</a>
+        <a href="business.html">商業價值</a>
+        <a class="is-active" href="process.html" aria-current="page">設計流程</a>
+      </nav>
+    </header>
+
+    <main class="content-main">
+      <section class="page-intro">
+        <p class="eyebrow">DESIGN PROCESS</p>
+        <h1>從角色規範到可交付卡牌</h1>
+        <p>專案把創意探索、人工決策與固定製版拆成清楚階段。每一步都有輸入、審核點與產出，確保 AI 的速度不會犧牲角色一致性與版本可追溯性。</p>
+      </section>
+
+      <section class="process-list" aria-label="卡牌設計流程">
+        <article class="process-step">
+          <div class="step-number">01</div>
+          <div><p class="section-kicker">DEFINE</p><h2>定義卡牌需求</h2><p>確認單張卡牌的角色、稀有度、系列、動作、場景、服裝與卡牌文字；尚未核定的設定不進入製作。</p></div>
+          <div class="step-output"><span>輸入</span><strong>Card brief</strong></div>
+        </article>
+        <article class="process-step">
+          <div class="step-number">02</div>
+          <div><p class="section-kicker">LOCK</p><h2>鎖定角色與藝術方向</h2><p>對照定稿角色圖、角色規範與藝術準則，確認身份特徵、服裝、配色及必要參考，不混用歷史版本。</p></div>
+          <div class="step-output"><span>審核點</span><strong>方向確認</strong></div>
+        </article>
+        <article class="process-step">
+          <div class="step-number">03</div>
+          <div><p class="section-kicker">EXPLORE</p><h2>產生獨立候選圖</h2><p>同一張卡以三次獨立生成探索不同構圖與表現；每次結果保留在新的執行紀錄中，不覆寫原始候選圖。</p></div>
+          <div class="step-output"><span>產出</span><strong>3 個候選方案</strong></div>
+        </article>
+        <article class="process-step">
+          <div class="step-number">04</div>
+          <div><p class="section-kicker">REVIEW</p><h2>建立比較稿並停下審查</h2><p>把候選圖整理為聯絡表，讓團隊在一致尺寸下比較。系統停在等待審查狀態，不自行挑選勝出版本。</p></div>
+          <div class="step-output"><span>審核點</span><strong>Human review</strong></div>
+        </article>
+        <article class="process-step">
+          <div class="step-number">05</div>
+          <div><p class="section-kicker">SELECT</p><h2>人工選稿與必要重試</h2><p>由人明確指定候選圖；若角色、構圖或裁切不合格，建立新的生成紀錄重試，而不是修改或取代原始結果。</p></div>
+          <div class="step-output"><span>決策</span><strong>Approved artwork</strong></div>
+        </article>
+        <article class="process-step">
+          <div class="step-number">06</div>
+          <div><p class="section-kicker">COMPOSE</p><h2>固定規則製版</h2><p>以核定插畫、卡牌資料與版型進行確定性合成。程式只負責裁切、文字框與像素組裝，不改寫內容或重新創作。</p></div>
+          <div class="step-output"><span>產出</span><strong>Final card</strong></div>
+        </article>
+        <article class="process-step">
+          <div class="step-number">07</div>
+          <div><p class="section-kicker">DELIVER</p><h2>檢查、歸檔與發布</h2><p>確認卡面尺寸、文字、角色與網站資料一致，保留來源與選稿關係，再同步至卡牌圖鑑與後續產品素材。</p></div>
+          <div class="step-output"><span>交付</span><strong>Archive + Web</strong></div>
+        </article>
+      </section>
+    </main>
+
+    <footer><span>X-STARS</span><span>SHINE TOGETHER, BECOME THE STARS</span></footer>
+  </body>
+</html>
